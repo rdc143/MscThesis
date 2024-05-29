@@ -1,0 +1,23 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.6.1
+Gene trees are treated as unrooted
+1000 trees read from estimated_gene_trees.tree
+Scoring /data/results/main-hypo.tre
+Scoring: 1 trees
+Number of taxa: 9 (9 species)
+Taxa: [TstrBot_0759.Cattle.bam, TspeCam_1021.Cattle.bam, TbuxEth_0865.Cattle.bam, TstrZam_0843.Cattle.bam, ScafKen_1010.Cattle.bam, TimbSom_0980.Cattle.bam, TspeGha_0887.Cattle.bam, TderSSu_0966.Cattle.bam, ToryEth_0652.Cattle.bam]
+Taxon occupancy: {TstrBot_0759.Cattle.bam=1000, ScafKen_1010.Cattle.bam=1000, TbuxEth_0865.Cattle.bam=1000, TspeGha_0887.Cattle.bam=1000, TstrZam_0843.Cattle.bam=1000, ToryEth_0652.Cattle.bam=1000, TspeCam_1021.Cattle.bam=1000, TimbSom_0980.Cattle.bam=1000, TderSSu_0966.Cattle.bam=1000}
+Number of gene trees: 1000
+0 trees have missing taxa
+Using tree-based weight calculation.
+Using polytree-based weight calculation.
+Polytree max score: 126000
+Polytree building time: 0.064 seconds.
+Number of quartet trees in the gene trees: 126000
+Final quartet score is: 90631
+Final normalized quartet score is: 0.7192936507936508
+(ScafKen_1010.Cattle.bam,TimbSom_0980.Cattle.bam,(TstrZam_0843.Cattle.bam,((TspeGha_0887.Cattle.bam,(TbuxEth_0865.Cattle.bam,TspeCam_1021.Cattle.bam)N0'[pp1=1;pp2=0;pp3=0]':0.7780719158307894)N1'[pp1=1;pp2=0;pp3=0]':0.1982316698627913,((TderSSu_0966.Cattle.bam,ToryEth_0652.Cattle.bam)N2'[pp1=1;pp2=0;pp3=0]':3.03235895153023,TstrBot_0759.Cattle.bam:0.0)N3'[pp1=1;pp2=0;pp3=0]':0.16048382322427981)N4'[pp1=1;pp2=0;pp3=0]':1.5049519049212048)N5'[pp1=1;pp2=0;pp3=0]':0.652045504874393)N6;
+Weight calculation took 0.005448669 secs
+ASTRAL finished in 0.349 secs

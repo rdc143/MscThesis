@@ -1,0 +1,32 @@
+PLINK v2.00a3.3LM 64-bit Intel (3 Jun 2022)
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_fixedout
+  --geno 0.1
+  --keep keep_list.txt
+  --maf 0.05
+  --make-king-table
+
+Hostname: scarbpop02fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/relatedness/prelim_filtered/Tspe/Zam
+Start time: Mon May 20 18:42:37 2024
+
+Random number seed: 1716223357
+1031233 MiB RAM detected; reserving 515616 MiB for main workspace.
+Using up to 192 threads (change this with --threads).
+249 samples (0 females, 0 males, 249 ambiguous; 249 founders) loaded from
+/home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_fixedout.fam.
+122389855 variants loaded from
+/home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_fixedout.bim.
+Note: No phenotype data present.
+--keep: 1 sample remaining.
+1 sample (0 females, 0 males, 1 ambiguous; 1 founder) remaining after main
+filters.
+Calculating allele frequencies... done.
+--geno: 8408015 variants removed due to missing genotype data.
+111327090 variants removed due to allele frequency threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+2654750 variants remaining after main filters.
+Error: --make-king-table requires at least 2 samples.
+
+End time: Mon May 20 18:42:54 2024

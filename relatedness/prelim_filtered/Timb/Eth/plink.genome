@@ -1,0 +1,4 @@
+     FID1 IID1     FID2 IID2 RT    EZ      Z0      Z1      Z2  PI_HAT PHE       DST     PPC   RATIO
+  TimbEth 0860  TimbEth 0861 OT     0  0.6988  0.3012  0.0000  0.1506  -1  0.672681  1.0000  2.6598
+  TimbEth 0860  TimbEth 0862 OT     0  0.7414  0.2173  0.0414  0.1500  -1  0.680964  1.0000  2.6167
+  TimbEth 0861  TimbEth 0862 OT     0  0.6721  0.2774  0.0505  0.1892  -1  0.692900  1.0000  3.0424

@@ -1,0 +1,20 @@
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/admixture/pcaone2/Tder
+2100566 variants loaded from .bim file.
+--extract: 90311 variants remaining.
+90311 variants and 6 people pass filters and QC.
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/admixture/pcaone2/Timb
+2273393 variants loaded from .bim file.
+--extract: 1183129 variants remaining.
+1183129 variants and 43 people pass filters and QC.
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/admixture/pcaone2/Tory
+7873218 variants loaded from .bim file.
+--extract: 6186827 variants remaining.
+6186827 variants and 69 people pass filters and QC.
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/admixture/pcaone2/Tspe
+7601143 variants loaded from .bim file.
+--extract: 492195 variants remaining.
+492195 variants and 30 people pass filters and QC.
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/admixture/pcaone2/Tstr
+3670902 variants loaded from .bim file.
+--extract: 1703640 variants remaining.
+1703640 variants and 44 people pass filters and QC.

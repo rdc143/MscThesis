@@ -1,0 +1,7 @@
+/maps/projects/popgen/data/tragelaphines/giant_eland/TderCam_0659.Cattle.bam
+/maps/projects/popgen/data/tragelaphines/giant_eland/TderCam_0660.Cattle.bam
+/maps/projects/popgen/data/tragelaphines/giant_eland/TderCam_0958.Cattle.bam
+/maps/projects/popgen/data/tragelaphines/giant_eland/TderUga_0963.Cattle.bam
+/maps/projects/popgen/data/tragelaphines/giant_eland/TderCha_0964.Cattle.bam
+/maps/projects/popgen/data/tragelaphines/giant_eland/TderSSu_0965.Cattle.bam
+/maps/projects/popgen/data/tragelaphines/giant_eland/TderSSu_0966.Cattle.bam

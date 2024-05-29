@@ -1,0 +1,2264 @@
+nohup: ignoring input
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0587.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0587
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0587.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.982224.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0587.bed + 0587.bim + 0587.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0587.log
+Input: -likes (null) -plink 0587 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0587 -whichPops all
+Setup: -seed 1714656493 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 125196470
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4701440 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3538344.996355
+iter[10] like=-3239985.897019 alpha=1.000000 Q=0.047072, Q=0.285239, Q=0.289491, Q=0.021138, Q=0.033330, Q=0.229031, Q=0.036532, Q=0.058167, 
+iter[20] like=-3209793.479986 alpha=1.000000 Q=0.030090, Q=0.311032, Q=0.304386, Q=0.013358, Q=0.023020, Q=0.191679, Q=0.024347, Q=0.102088, 
+iter[30] like=-3171802.169464 alpha=5.990324 Q=0.012828, Q=0.319980, Q=0.302014, Q=0.005280, Q=0.011371, Q=0.131721, Q=0.011476, Q=0.205329, 
+iter[40] like=-3141210.716703 alpha=11.183079 Q=0.002827, Q=0.325224, Q=0.293850, Q=0.000947, Q=0.003532, Q=0.075722, Q=0.003173, Q=0.294725, 
+iter[50] like=-3130585.981544 alpha=14.623479 Q=0.000411, Q=0.342910, Q=0.309407, Q=0.000098, Q=0.000887, Q=0.041957, Q=0.000650, Q=0.303680, 
+iter[60] like=-3126247.112281 alpha=9.311913 Q=0.000069, Q=0.349410, Q=0.319386, Q=0.000011, Q=0.000257, Q=0.025429, Q=0.000152, Q=0.305286, 
+iter[70] like=-3123868.859338 alpha=10.134754 Q=0.000011, Q=0.352672, Q=0.325041, Q=0.000010, Q=0.000077, Q=0.015987, Q=0.000036, Q=0.306165, 
+iter[80] like=-3121028.048521 alpha=6.722455 Q=0.000010, Q=0.356628, Q=0.331550, Q=0.000010, Q=0.000010, Q=0.004568, Q=0.000010, Q=0.307213, 
+iter[90] like=-3120052.524015 alpha=34.569307 Q=0.000010, Q=0.358018, Q=0.333685, Q=0.000010, Q=0.000010, Q=0.000680, Q=0.000010, Q=0.307577, 
+iter[100] like=-3119891.817005 alpha=318.413808 Q=0.000010, Q=0.358247, Q=0.334036, Q=0.000010, Q=0.000010, Q=0.000040, Q=0.000010, Q=0.307637, 
+iter[110] like=-3119888.159034 alpha=2.061747 Q=0.000010, Q=0.358253, Q=0.334042, Q=0.000010, Q=0.000010, Q=0.000027, Q=0.000010, Q=0.307639, 
+iter[120] like=-3119883.870999 alpha=7.036033 Q=0.000010, Q=0.358258, Q=0.334052, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.307640, 
+like after -3119883.864229
+CONVERGENCE!
+This many iterations 126 for run 0
+
+best like -3119883.864229 after 0!
+Q 0.000010 Q 0.358259 Q 0.334051 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.307640  after 0!
+
+Estimated  Q = 0.000010 0.358259 0.334051 0.000010 0.000010 0.000010 0.000010 0.307640 best like -3119883.864229 after 0 runs!
+	-> Dumping file: 0587.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  334.23 sec
+	[ALL done] walltime used =  335.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0588.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0588
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0588.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.937019.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0588.bed + 0588.bim + 0588.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0588.log
+Input: -likes (null) -plink 0588 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0588 -whichPops all
+Setup: -seed 1714657463 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 119434478
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4473592 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3313043.352165
+iter[10] like=-2931723.019971 alpha=1.000000 Q=0.291507, Q=0.041256, Q=0.042234, Q=0.076739, Q=0.029606, Q=0.011774, Q=0.478451, Q=0.028433, 
+iter[20] like=-2871465.201345 alpha=1.000000 Q=0.282236, Q=0.021718, Q=0.023153, Q=0.052805, Q=0.022305, Q=0.006665, Q=0.576135, Q=0.014983, 
+iter[30] like=-2832117.208017 alpha=1.000000 Q=0.265348, Q=0.011707, Q=0.012923, Q=0.035860, Q=0.016147, Q=0.003818, Q=0.646100, Q=0.008097, 
+iter[40] like=-2805969.283070 alpha=1.000000 Q=0.249926, Q=0.006326, Q=0.007201, Q=0.024025, Q=0.011422, Q=0.002189, Q=0.694523, Q=0.004388, 
+iter[50] like=-2765669.110478 alpha=4.998818 Q=0.213578, Q=0.000828, Q=0.001041, Q=0.006485, Q=0.003542, Q=0.000353, Q=0.773595, Q=0.000577, 
+iter[60] like=-2724241.413216 alpha=1.916587 Q=0.135235, Q=0.000010, Q=0.000013, Q=0.000378, Q=0.000262, Q=0.000010, Q=0.864082, Q=0.000010, 
+iter[70] like=-2679510.313126 alpha=2.890259 Q=0.055993, Q=0.000010, Q=0.000010, Q=0.000016, Q=0.000014, Q=0.000010, Q=0.943936, Q=0.000010, 
+iter[80] like=-2644776.851244 alpha=64.583585 Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.999930, Q=0.000010, 
+like after -2644776.851279
+CONVERGENCE!
+This many iterations 82 for run 0
+
+best like -2644776.851279 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.000010 0.000010 0.000010 0.999930 0.000010 best like -2644776.851279 after 0 runs!
+	-> Dumping file: 0588.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  189.08 sec
+	[ALL done] walltime used =  190.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0589.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0589
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0589.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.995734.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0589.bed + 0589.bim + 0589.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0589.log
+Input: -likes (null) -plink 0589 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0589 -whichPops all
+Setup: -seed 1714658172 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 126918441
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4769114 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3501362.713596
+iter[10] like=-3069231.911035 alpha=1.000000 Q=0.292341, Q=0.052524, Q=0.066560, Q=0.024205, Q=0.115048, Q=0.025491, Q=0.400730, Q=0.023100, 
+iter[20] like=-3016195.066226 alpha=1.000000 Q=0.286658, Q=0.029533, Q=0.038506, Q=0.018476, Q=0.096980, Q=0.015677, Q=0.501271, Q=0.012898, 
+iter[30] like=-2981970.397277 alpha=1.000000 Q=0.270078, Q=0.018035, Q=0.024124, Q=0.014023, Q=0.083621, Q=0.010209, Q=0.572077, Q=0.007833, 
+iter[40] like=-2958400.594088 alpha=1.000000 Q=0.254784, Q=0.011408, Q=0.015598, Q=0.010622, Q=0.072723, Q=0.006829, Q=0.623121, Q=0.004916, 
+iter[50] like=-2941687.913234 alpha=1.000000 Q=0.243880, Q=0.007362, Q=0.010263, Q=0.008059, Q=0.063219, Q=0.004647, Q=0.659426, Q=0.003144, 
+iter[60] like=-2900274.287632 alpha=2.301859 Q=0.227328, Q=0.000414, Q=0.000650, Q=0.001263, Q=0.026073, Q=0.000384, Q=0.743729, Q=0.000160, 
+iter[70] like=-2887234.800396 alpha=3.672808 Q=0.218751, Q=0.000015, Q=0.000027, Q=0.000147, Q=0.010193, Q=0.000023, Q=0.770834, Q=0.000010, 
+iter[80] like=-2881319.075141 alpha=2.954905 Q=0.214676, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.001733, Q=0.000010, Q=0.783542, Q=0.000010, 
+iter[90] like=-2880538.795099 alpha=2.856548 Q=0.214997, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000134, Q=0.000010, Q=0.784819, Q=0.000010, 
+iter[100] like=-2880514.992218 alpha=4.353262 Q=0.215150, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.784790, Q=0.000010, 
+iter[110] like=-2880515.479890 alpha=15.364048 Q=0.215152, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.784788, Q=0.000010, 
+like after -2880515.479899
+CONVERGENCE!
+This many iterations 112 for run 0
+
+best like -2880515.479899 after 0!
+Q 0.215152 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.784788 Q 0.000010  after 0!
+
+Estimated  Q = 0.215152 0.000010 0.000010 0.000010 0.000010 0.000010 0.784788 0.000010 best like -2880515.479899 after 0 runs!
+	-> Dumping file: 0589.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  271.01 sec
+	[ALL done] walltime used =  271.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0590.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0590
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0590.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.98524.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0590.bed + 0590.bim + 0590.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0590.log
+Input: -likes (null) -plink 0590 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0590 -whichPops all
+Setup: -seed 1714658936 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 125580838
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4717614 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3398314.244202
+iter[10] like=-3082207.413213 alpha=1.000000 Q=0.380327, Q=0.037161, Q=0.015236, Q=0.040062, Q=0.140755, Q=0.113313, Q=0.247308, Q=0.025837, 
+iter[20] like=-3020460.166534 alpha=1.000000 Q=0.366748, Q=0.020720, Q=0.008832, Q=0.030360, Q=0.118032, Q=0.068235, Q=0.372578, Q=0.014497, 
+iter[30] like=-2932729.619091 alpha=4.526705 Q=0.281507, Q=0.004738, Q=0.002229, Q=0.012894, Q=0.074870, Q=0.019184, Q=0.601199, Q=0.003379, 
+iter[40] like=-2912470.243521 alpha=1.000000 Q=0.250138, Q=0.002844, Q=0.001383, Q=0.009335, Q=0.063895, Q=0.012384, Q=0.657997, Q=0.002026, 
+iter[50] like=-2900213.877717 alpha=1.000000 Q=0.233227, Q=0.001870, Q=0.000934, Q=0.007165, Q=0.055816, Q=0.008652, Q=0.691008, Q=0.001328, 
+iter[60] like=-2870507.647699 alpha=2.727590 Q=0.201596, Q=0.000275, Q=0.000159, Q=0.002342, Q=0.033202, Q=0.001797, Q=0.760439, Q=0.000189, 
+iter[70] like=-2842594.509424 alpha=2.572493 Q=0.164553, Q=0.000010, Q=0.000010, Q=0.000260, Q=0.012694, Q=0.000088, Q=0.822375, Q=0.000010, 
+iter[80] like=-2824715.555772 alpha=2.233876 Q=0.134817, Q=0.000010, Q=0.000010, Q=0.000029, Q=0.004751, Q=0.000010, Q=0.860363, Q=0.000010, 
+iter[90] like=-2796810.793861 alpha=1.403526 Q=0.084436, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.001094, Q=0.000010, Q=0.914420, Q=0.000010, 
+iter[100] like=-2771185.460208 alpha=1.000000 Q=0.040047, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000274, Q=0.000010, Q=0.959629, Q=0.000010, 
+iter[110] like=-2747063.271966 alpha=120.582792 Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.999930, Q=0.000010, 
+like after -2747077.130719
+CONVERGENCE!
+This many iterations 111 for run 0
+
+best like -2747077.130719 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.000010 0.000010 0.000010 0.999930 0.000010 best like -2747077.130719 after 0 runs!
+	-> Dumping file: 0590.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  263.18 sec
+	[ALL done] walltime used =  264.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0591.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0591
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0591.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.98667.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0591.bed + 0591.bim + 0591.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0591.log
+Input: -likes (null) -plink 0591 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0591 -whichPops all
+Setup: -seed 1714659704 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 125763111
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4724854 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3540214.136781
+iter[10] like=-3244235.035253 alpha=1.000000 Q=0.180342, Q=0.084122, Q=0.011642, Q=0.201127, Q=0.352765, Q=0.098580, Q=0.026119, Q=0.045303, 
+iter[20] like=-3054875.497371 alpha=1.000000 Q=0.382022, Q=0.019509, Q=0.003054, Q=0.098869, Q=0.220066, Q=0.026292, Q=0.238834, Q=0.011354, 
+iter[30] like=-3013437.548390 alpha=1.000000 Q=0.371228, Q=0.011998, Q=0.001926, Q=0.069939, Q=0.174793, Q=0.016690, Q=0.346298, Q=0.007128, 
+iter[40] like=-2985220.403016 alpha=1.000000 Q=0.348235, Q=0.007563, Q=0.001242, Q=0.049662, Q=0.142475, Q=0.010884, Q=0.435379, Q=0.004559, 
+iter[50] like=-2966410.090709 alpha=1.000000 Q=0.326875, Q=0.004973, Q=0.000834, Q=0.036214, Q=0.120904, Q=0.007411, Q=0.499762, Q=0.003027, 
+iter[60] like=-2926397.800061 alpha=1.000000 Q=0.273960, Q=0.001636, Q=0.000291, Q=0.016194, Q=0.085580, Q=0.002767, Q=0.618563, Q=0.001008, 
+iter[70] like=-2916104.209287 alpha=1.000000 Q=0.257304, Q=0.001100, Q=0.000200, Q=0.012213, Q=0.076003, Q=0.001961, Q=0.650542, Q=0.000677, 
+iter[80] like=-2908287.034581 alpha=1.000000 Q=0.246498, Q=0.000745, Q=0.000138, Q=0.009286, Q=0.067799, Q=0.001403, Q=0.673673, Q=0.000457, 
+iter[90] like=-2902366.262444 alpha=1.000000 Q=0.239880, Q=0.000509, Q=0.000096, Q=0.007116, Q=0.060779, Q=0.001013, Q=0.690296, Q=0.000311, 
+iter[100] like=-2881311.803028 alpha=1.822566 Q=0.229413, Q=0.000025, Q=0.000011, Q=0.001050, Q=0.031299, Q=0.000090, Q=0.738098, Q=0.000014, 
+iter[110] like=-2867832.342009 alpha=2.421274 Q=0.224346, Q=0.000010, Q=0.000010, Q=0.000014, Q=0.009770, Q=0.000010, Q=0.765831, Q=0.000010, 
+iter[120] like=-2863907.868167 alpha=1.263982 Q=0.224698, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.002247, Q=0.000010, Q=0.773006, Q=0.000010, 
+iter[130] like=-2863102.741198 alpha=1.547015 Q=0.225809, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000163, Q=0.000010, Q=0.773978, Q=0.000010, 
+iter[140] like=-2863088.129339 alpha=4.552740 Q=0.225853, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000109, Q=0.000010, Q=0.773988, Q=0.000010, 
+iter[150] like=-2863059.796402 alpha=5.005515 Q=0.225942, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.773998, Q=0.000010, 
+like after -2863059.756299
+CONVERGENCE!
+This many iterations 158 for run 0
+
+best like -2863059.756299 after 0!
+Q 0.225941 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.773999 Q 0.000010  after 0!
+
+Estimated  Q = 0.225941 0.000010 0.000010 0.000010 0.000010 0.000010 0.773999 0.000010 best like -2863059.756299 after 0 runs!
+	-> Dumping file: 0591.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  376.22 sec
+	[ALL done] walltime used =  377.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0592.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0592
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0592.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.992106.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0592.bed + 0592.bim + 0592.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0592.log
+Input: -likes (null) -plink 0592 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0592 -whichPops all
+Setup: -seed 1714660579 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 126456034
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4750623 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3363630.340465
+iter[10] like=-3043273.122267 alpha=1.000000 Q=0.089854, Q=0.004173, Q=0.030958, Q=0.096053, Q=0.131046, Q=0.069308, Q=0.547174, Q=0.031433, 
+iter[20] like=-2993232.271012 alpha=1.000000 Q=0.099352, Q=0.002440, Q=0.018709, Q=0.071709, Q=0.111450, Q=0.043729, Q=0.634446, Q=0.018166, 
+iter[30] like=-2961940.692597 alpha=1.000000 Q=0.106852, Q=0.001520, Q=0.012045, Q=0.055302, Q=0.098122, Q=0.029409, Q=0.685457, Q=0.011294, 
+iter[40] like=-2940265.962520 alpha=1.000000 Q=0.113300, Q=0.000982, Q=0.008036, Q=0.043495, Q=0.088009, Q=0.020500, Q=0.718384, Q=0.007295, 
+iter[50] like=-2904648.652951 alpha=8.151608 Q=0.128780, Q=0.000292, Q=0.002632, Q=0.022509, Q=0.066666, Q=0.007714, Q=0.769252, Q=0.002154, 
+iter[60] like=-2874391.745039 alpha=12.516758 Q=0.159035, Q=0.000010, Q=0.000121, Q=0.003543, Q=0.030122, Q=0.000544, Q=0.806555, Q=0.000070, 
+iter[70] like=-2869440.776925 alpha=30.619128 Q=0.188394, Q=0.000010, Q=0.000010, Q=0.000146, Q=0.007683, Q=0.000010, Q=0.803736, Q=0.000010, 
+iter[80] like=-2872518.696428 alpha=1.511046 Q=0.211083, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000303, Q=0.000010, Q=0.788564, Q=0.000010, 
+iter[90] like=-2872064.693456 alpha=19.517028 Q=0.209905, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000100, Q=0.000010, Q=0.789945, Q=0.000010, 
+iter[100] like=-2871975.024001 alpha=1.312520 Q=0.209707, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000041, Q=0.000010, Q=0.790202, Q=0.000010, 
+iter[110] like=-2871940.005797 alpha=9.993980 Q=0.209646, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.790294, Q=0.000010, 
+like after -2871939.882342
+CONVERGENCE!
+This many iterations 117 for run 0
+
+best like -2871939.882342 after 0!
+Q 0.209645 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.790295 Q 0.000010  after 0!
+
+Estimated  Q = 0.209645 0.000010 0.000010 0.000010 0.000010 0.000010 0.790295 0.000010 best like -2871939.882342 after 0 runs!
+	-> Dumping file: 0592.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  274.44 sec
+	[ALL done] walltime used =  275.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0593.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0593
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0593.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.987227.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0593.bed + 0593.bim + 0593.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0593.log
+Input: -likes (null) -plink 0593 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0593 -whichPops all
+Setup: -seed 1714661340 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 125834146
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4725814 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3519557.918148
+iter[10] like=-3088775.631602 alpha=1.000000 Q=0.306383, Q=0.045976, Q=0.013068, Q=0.128914, Q=0.133770, Q=0.064782, Q=0.283426, Q=0.023680, 
+iter[20] like=-3023246.881834 alpha=1.000000 Q=0.298649, Q=0.025859, Q=0.007670, Q=0.089225, Q=0.111171, Q=0.039431, Q=0.414654, Q=0.013341, 
+iter[30] like=-2981867.111976 alpha=1.000000 Q=0.275769, Q=0.015709, Q=0.004828, Q=0.063925, Q=0.093251, Q=0.025651, Q=0.512760, Q=0.008108, 
+iter[40] like=-2948884.373886 alpha=1.000000 Q=0.248487, Q=0.009852, Q=0.003131, Q=0.047060, Q=0.080154, Q=0.017230, Q=0.589028, Q=0.005058, 
+iter[50] like=-2924929.983934 alpha=1.000000 Q=0.226686, Q=0.006280, Q=0.002062, Q=0.035198, Q=0.069422, Q=0.011779, Q=0.645386, Q=0.003188, 
+iter[60] like=-2907508.812564 alpha=1.000000 Q=0.211777, Q=0.004067, Q=0.001379, Q=0.026678, Q=0.060325, Q=0.008188, Q=0.685548, Q=0.002038, 
+iter[70] like=-2894467.582176 alpha=1.000000 Q=0.201992, Q=0.002671, Q=0.000935, Q=0.020484, Q=0.052654, Q=0.005775, Q=0.714172, Q=0.001319, 
+iter[80] like=-2847581.138017 alpha=13.441206 Q=0.163262, Q=0.000151, Q=0.000068, Q=0.003849, Q=0.023536, Q=0.000587, Q=0.808483, Q=0.000063, 
+iter[90] like=-2813101.317845 alpha=17.838681 Q=0.116533, Q=0.000010, Q=0.000010, Q=0.000352, Q=0.007102, Q=0.000023, Q=0.875961, Q=0.000010, 
+iter[100] like=-2778227.716697 alpha=12.067838 Q=0.058499, Q=0.000010, Q=0.000010, Q=0.000024, Q=0.001654, Q=0.000010, Q=0.939782, Q=0.000010, 
+iter[110] like=-2751491.258727 alpha=14.798822 Q=0.014321, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000204, Q=0.000010, Q=0.985424, Q=0.000010, 
+like after -2742672.856399
+CONVERGENCE!
+This many iterations 116 for run 0
+
+best like -2742672.856399 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.000010 0.000010 0.000010 0.999930 0.000010 best like -2742672.856399 after 0 runs!
+	-> Dumping file: 0593.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  282.46 sec
+	[ALL done] walltime used =  283.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0594.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0594
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0594.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.990262.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0594.bed + 0594.bim + 0594.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0594.log
+Input: -likes (null) -plink 0594 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0594 -whichPops all
+Setup: -seed 1714662148 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 126220926
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4742384 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3372225.227709
+iter[10] like=-3008114.592348 alpha=1.000000 Q=0.193750, Q=0.033835, Q=0.013708, Q=0.098888, Q=0.028750, Q=0.051465, Q=0.562010, Q=0.017594, 
+iter[20] like=-2964700.878556 alpha=1.000000 Q=0.193404, Q=0.021070, Q=0.008639, Q=0.072034, Q=0.026750, Q=0.034185, Q=0.633221, Q=0.010697, 
+iter[30] like=-2937252.991623 alpha=1.000000 Q=0.192384, Q=0.013771, Q=0.005693, Q=0.054012, Q=0.024723, Q=0.023606, Q=0.679015, Q=0.006796, 
+iter[40] like=-2918445.135773 alpha=1.000000 Q=0.192500, Q=0.009262, Q=0.003858, Q=0.041234, Q=0.022829, Q=0.016700, Q=0.709177, Q=0.004441, 
+iter[50] like=-2904657.057526 alpha=1.000000 Q=0.192727, Q=0.006343, Q=0.002660, Q=0.031801, Q=0.021062, Q=0.011990, Q=0.730465, Q=0.002952, 
+iter[60] like=-2869314.599699 alpha=1.980536 Q=0.189202, Q=0.000782, Q=0.000341, Q=0.007911, Q=0.013294, Q=0.001968, Q=0.786210, Q=0.000292, 
+iter[70] like=-2855698.419560 alpha=1.371314 Q=0.183620, Q=0.000012, Q=0.000010, Q=0.000556, Q=0.005240, Q=0.000059, Q=0.810493, Q=0.000010, 
+iter[80] like=-2844262.155548 alpha=1.926235 Q=0.162700, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000204, Q=0.000010, Q=0.837046, Q=0.000010, 
+iter[90] like=-2836611.190012 alpha=354.954994 Q=0.145902, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000054, Q=0.000010, Q=0.853994, Q=0.000010, 
+iter[100] like=-2832343.483921 alpha=5.600314 Q=0.135146, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000012, Q=0.000010, Q=0.864792, Q=0.000010, 
+iter[110] like=-2828767.766859 alpha=1.000000 Q=0.127269, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.872671, Q=0.000010, 
+iter[120] like=-2828092.588915 alpha=1.000000 Q=0.125817, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.874123, Q=0.000010, 
+iter[130] like=-2782410.326931 alpha=1.532243 Q=0.039740, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.960200, Q=0.000010, 
+iter[140] like=-2780339.620145 alpha=1.000000 Q=0.036128, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.963812, Q=0.000010, 
+iter[150] like=-2778377.611827 alpha=1.000000 Q=0.032723, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.967217, Q=0.000010, 
+iter[160] like=-2776532.695442 alpha=1.000000 Q=0.029536, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.970404, Q=0.000010, 
+iter[170] like=-2774810.064081 alpha=1.000000 Q=0.026574, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.973366, Q=0.000010, 
+iter[180] like=-2773212.148357 alpha=1.000000 Q=0.023837, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.976103, Q=0.000010, 
+like after -2773059.234508
+CONVERGENCE!
+This many iterations 183 for run 0
+
+best like -2773059.234508 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.000010 0.000010 0.000010 0.999930 0.000010 best like -2773059.234508 after 0 runs!
+	-> Dumping file: 0594.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  441.84 sec
+	[ALL done] walltime used =  442.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0595.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0595
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0595.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.985995.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0595.bed + 0595.bim + 0595.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0595.log
+Input: -likes (null) -plink 0595 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0595 -whichPops all
+Setup: -seed 1714663087 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 125677039
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4719092 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3451006.241285
+iter[10] like=-2950027.286137 alpha=1.000000 Q=0.012623, Q=0.037009, Q=0.032648, Q=0.134835, Q=0.049009, Q=0.010554, Q=0.676722, Q=0.046600, 
+iter[20] like=-2869105.414042 alpha=1.000000 Q=0.012859, Q=0.020117, Q=0.018430, Q=0.089662, Q=0.042491, Q=0.006365, Q=0.784767, Q=0.025309, 
+iter[30] like=-2815709.767717 alpha=1.000000 Q=0.012065, Q=0.011399, Q=0.010779, Q=0.060475, Q=0.035399, Q=0.003937, Q=0.851491, Q=0.014455, 
+iter[40] like=-2777730.311281 alpha=1.000000 Q=0.010673, Q=0.006435, Q=0.006262, Q=0.040088, Q=0.028337, Q=0.002417, Q=0.897577, Q=0.008211, 
+iter[50] like=-2750411.108040 alpha=1.000000 Q=0.008964, Q=0.003525, Q=0.003528, Q=0.025520, Q=0.021675, Q=0.001438, Q=0.930824, Q=0.004525, 
+iter[60] like=-2697594.402060 alpha=61.576980 Q=0.000037, Q=0.000010, Q=0.000010, Q=0.000048, Q=0.000010, Q=0.000010, Q=0.999864, Q=0.000010, 
+like after -2697546.633381
+CONVERGENCE!
+This many iterations 64 for run 0
+
+best like -2697546.633381 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.000010 0.000010 0.000010 0.999930 0.000010 best like -2697546.633381 after 0 runs!
+	-> Dumping file: 0595.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  154.29 sec
+	[ALL done] walltime used =  154.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0596.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0596
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0596.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.99016.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0596.bed + 0596.bim + 0596.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0596.log
+Input: -likes (null) -plink 0596 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0596 -whichPops all
+Setup: -seed 1714663763 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 126207964
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4741435 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3452018.518299
+iter[10] like=-3044878.628467 alpha=1.000000 Q=0.347384, Q=0.056244, Q=0.042192, Q=0.067301, Q=0.025050, Q=0.042084, Q=0.395643, Q=0.024102, 
+iter[20] like=-2987726.111390 alpha=1.000000 Q=0.325079, Q=0.031641, Q=0.024526, Q=0.048394, Q=0.022879, Q=0.026507, Q=0.507476, Q=0.013498, 
+iter[30] like=-2948509.952611 alpha=1.000000 Q=0.297687, Q=0.019239, Q=0.015270, Q=0.035288, Q=0.020585, Q=0.017615, Q=0.586149, Q=0.008167, 
+iter[40] like=-2919574.106952 alpha=1.000000 Q=0.268145, Q=0.011821, Q=0.009576, Q=0.025452, Q=0.017984, Q=0.011737, Q=0.650297, Q=0.004988, 
+iter[50] like=-2900604.083432 alpha=1.000000 Q=0.247652, Q=0.007355, Q=0.006077, Q=0.018393, Q=0.015588, Q=0.007903, Q=0.693950, Q=0.003082, 
+iter[60] like=-2864055.636322 alpha=2.218128 Q=0.209553, Q=0.001102, Q=0.000989, Q=0.005121, Q=0.008950, Q=0.001672, Q=0.772171, Q=0.000442, 
+iter[70] like=-2831942.068155 alpha=15.121276 Q=0.152002, Q=0.000010, Q=0.000010, Q=0.000169, Q=0.002116, Q=0.000023, Q=0.845661, Q=0.000010, 
+iter[80] like=-2801260.849446 alpha=14.308247 Q=0.092091, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000340, Q=0.000010, Q=0.907519, Q=0.000010, 
+iter[90] like=-2767759.044304 alpha=16.806497 Q=0.032718, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000048, Q=0.000010, Q=0.967184, Q=0.000010, 
+iter[100] like=-2752845.406933 alpha=1.394741 Q=0.007682, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.992258, Q=0.000010, 
+like after -2748171.048960
+CONVERGENCE!
+This many iterations 103 for run 0
+
+best like -2748171.048960 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.000010 0.000010 0.000010 0.999930 0.000010 best like -2748171.048960 after 0 runs!
+	-> Dumping file: 0596.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  256.80 sec
+	[ALL done] walltime used =  257.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0597.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0597
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0597.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.995836.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0597.bed + 0597.bim + 0597.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0597.log
+Input: -likes (null) -plink 0597 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0597 -whichPops all
+Setup: -seed 1714664529 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 126931480
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4769646 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3405370.357941
+iter[10] like=-3073157.528422 alpha=1.000000 Q=0.257340, Q=0.046436, Q=0.060522, Q=0.004947, Q=0.109283, Q=0.047650, Q=0.452128, Q=0.021694, 
+iter[20] like=-3024572.191238 alpha=1.000000 Q=0.257120, Q=0.026537, Q=0.036113, Q=0.003911, Q=0.095701, Q=0.030119, Q=0.538092, Q=0.012406, 
+iter[30] like=-2994739.247389 alpha=1.000000 Q=0.249754, Q=0.016380, Q=0.023214, Q=0.003065, Q=0.085456, Q=0.020179, Q=0.594264, Q=0.007688, 
+iter[40] like=-2974947.822535 alpha=1.000000 Q=0.242854, Q=0.010508, Q=0.015448, Q=0.002401, Q=0.076972, Q=0.013941, Q=0.632919, Q=0.004957, 
+iter[50] like=-2953449.912041 alpha=8.000000 Q=0.235551, Q=0.004956, Q=0.007754, Q=0.001562, Q=0.064565, Q=0.007472, Q=0.675778, Q=0.002362, 
+iter[60] like=-2925885.835050 alpha=7.917830 Q=0.237643, Q=0.000290, Q=0.000580, Q=0.000287, Q=0.034844, Q=0.000731, Q=0.725481, Q=0.000143, 
+iter[70] like=-2915999.155394 alpha=25.265394 Q=0.246837, Q=0.000010, Q=0.000010, Q=0.000012, Q=0.013184, Q=0.000010, Q=0.739928, Q=0.000010, 
+iter[80] like=-2913360.085439 alpha=4.848518 Q=0.250855, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.006124, Q=0.000010, Q=0.742971, Q=0.000010, 
+iter[90] like=-2911472.420434 alpha=11.402032 Q=0.254074, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000952, Q=0.000010, Q=0.744924, Q=0.000010, 
+iter[100] like=-2911204.086473 alpha=3.599367 Q=0.254679, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000147, Q=0.000010, Q=0.745124, Q=0.000010, 
+iter[110] like=-2911167.347419 alpha=87.842909 Q=0.254770, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000033, Q=0.000010, Q=0.745147, Q=0.000010, 
+iter[120] like=-2911161.312470 alpha=1.726428 Q=0.254794, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.745146, Q=0.000010, 
+iter[130] like=-2911161.207203 alpha=1.254572 Q=0.254793, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.745147, Q=0.000010, 
+like after -2911161.119425
+CONVERGENCE!
+This many iterations 140 for run 0
+
+best like -2911161.119425 after 0!
+Q 0.254793 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.745147 Q 0.000010  after 0!
+
+Estimated  Q = 0.254793 0.000010 0.000010 0.000010 0.000010 0.000010 0.745147 0.000010 best like -2911161.119425 after 0 runs!
+	-> Dumping file: 0597.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  335.34 sec
+	[ALL done] walltime used =  336.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0598.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0598
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0598.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.995345.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0598.bed + 0598.bim + 0598.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0598.log
+Input: -likes (null) -plink 0598 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0598 -whichPops all
+Setup: -seed 1714665444 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 126868852
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4766481 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3374914.285001
+iter[10] like=-3038826.224153 alpha=1.000000 Q=0.249063, Q=0.008763, Q=0.040505, Q=0.100259, Q=0.041777, Q=0.040041, Q=0.504809, Q=0.014783, 
+iter[20] like=-2995640.517453 alpha=1.000000 Q=0.240566, Q=0.005295, Q=0.024995, Q=0.072054, Q=0.038950, Q=0.026208, Q=0.582759, Q=0.009173, 
+iter[30] like=-2966770.386224 alpha=1.000000 Q=0.231552, Q=0.003314, Q=0.015918, Q=0.053170, Q=0.035949, Q=0.017659, Q=0.636569, Q=0.005869, 
+iter[40] like=-2946952.686477 alpha=1.000000 Q=0.225232, Q=0.002120, Q=0.010332, Q=0.039813, Q=0.032991, Q=0.012127, Q=0.673561, Q=0.003824, 
+iter[50] like=-2933375.444905 alpha=1.000000 Q=0.221940, Q=0.001379, Q=0.006801, Q=0.030107, Q=0.030232, Q=0.008445, Q=0.698570, Q=0.002527, 
+iter[60] like=-2898590.599548 alpha=3.465564 Q=0.216323, Q=0.000101, Q=0.000537, Q=0.006072, Q=0.018314, Q=0.000995, Q=0.757455, Q=0.000203, 
+iter[70] like=-2886549.238413 alpha=1.402337 Q=0.206782, Q=0.000010, Q=0.000026, Q=0.000939, Q=0.009822, Q=0.000081, Q=0.782330, Q=0.000010, 
+iter[80] like=-2882210.008835 alpha=2.186975 Q=0.204073, Q=0.000010, Q=0.000010, Q=0.000080, Q=0.004440, Q=0.000010, Q=0.791367, Q=0.000010, 
+iter[90] like=-2880778.830242 alpha=1.636257 Q=0.204470, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.001668, Q=0.000010, Q=0.793812, Q=0.000010, 
+iter[100] like=-2880206.607181 alpha=16.989219 Q=0.205367, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000124, Q=0.000010, Q=0.794459, Q=0.000010, 
+iter[110] like=-2880172.564361 alpha=3.611077 Q=0.205461, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.794479, Q=0.000010, 
+iter[120] like=-2880172.468115 alpha=1.442172 Q=0.205461, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.794479, Q=0.000010, 
+like after -2880172.437241
+CONVERGENCE!
+This many iterations 123 for run 0
+
+best like -2880172.437241 after 0!
+Q 0.205461 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.794479 Q 0.000010  after 0!
+
+Estimated  Q = 0.205461 0.000010 0.000010 0.000010 0.000010 0.000010 0.794479 0.000010 best like -2880172.437241 after 0 runs!
+	-> Dumping file: 0598.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  365.17 sec
+	[ALL done] walltime used =  366.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0599.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0599
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0599.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.998431.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0599.bed + 0599.bim + 0599.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0599.log
+Input: -likes (null) -plink 0599 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0599 -whichPops all
+Setup: -seed 1714666466 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 127262204
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4782297 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3525358.731266
+iter[10] like=-3131675.584540 alpha=1.000000 Q=0.397411, Q=0.066652, Q=0.051871, Q=0.018207, Q=0.177853, Q=0.030997, Q=0.204664, Q=0.052346, 
+iter[20] like=-3057205.061045 alpha=1.000000 Q=0.399275, Q=0.035437, Q=0.028938, Q=0.014022, Q=0.145419, Q=0.018461, Q=0.331646, Q=0.026802, 
+iter[30] like=-2987232.570523 alpha=2.820889 Q=0.341348, Q=0.011875, Q=0.010562, Q=0.007486, Q=0.096418, Q=0.007245, Q=0.516374, Q=0.008692, 
+iter[40] like=-2931503.720403 alpha=1.000000 Q=0.263597, Q=0.002710, Q=0.002715, Q=0.002822, Q=0.056465, Q=0.002041, Q=0.667772, Q=0.001879, 
+iter[50] like=-2905848.784974 alpha=7.252533 Q=0.227958, Q=0.000518, Q=0.000597, Q=0.000958, Q=0.031340, Q=0.000512, Q=0.737792, Q=0.000326, 
+iter[60] like=-2881456.136998 alpha=4.788247 Q=0.195194, Q=0.000018, Q=0.000028, Q=0.000111, Q=0.010748, Q=0.000034, Q=0.793858, Q=0.000010, 
+iter[70] like=-2868394.591343 alpha=9.498613 Q=0.174032, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.002130, Q=0.000010, Q=0.823789, Q=0.000010, 
+iter[80] like=-2858099.093638 alpha=19.157126 Q=0.151137, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000394, Q=0.000010, Q=0.848419, Q=0.000010, 
+iter[90] like=-2846194.537267 alpha=12.404351 Q=0.125832, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000068, Q=0.000010, Q=0.874050, Q=0.000010, 
+iter[100] like=-2822781.496908 alpha=25.575452 Q=0.081198, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.918742, Q=0.000010, 
+iter[110] like=-2794861.057249 alpha=1.503649 Q=0.030953, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.968987, Q=0.000010, 
+iter[120] like=-2784957.053870 alpha=21.120078 Q=0.014411, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.985529, Q=0.000010, 
+like after -2784758.174112
+CONVERGENCE!
+This many iterations 123 for run 0
+
+best like -2784758.174112 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.000010 0.000010 0.000010 0.999930 0.000010 best like -2784758.174112 after 0 runs!
+	-> Dumping file: 0599.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  372.24 sec
+	[ALL done] walltime used =  373.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0733.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0733
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0733.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.893468.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0733.bed + 0733.bim + 0733.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0733.log
+Input: -likes (null) -plink 0733 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0733 -whichPops all
+Setup: -seed 1714667520 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 113883446
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4275257 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3257879.004486
+iter[10] like=-2878528.282964 alpha=1.000000 Q=0.101105, Q=0.050412, Q=0.005272, Q=0.586201, Q=0.079819, Q=0.066352, Q=0.082636, Q=0.028202, 
+iter[20] like=-2827208.929903 alpha=1.000000 Q=0.073533, Q=0.031242, Q=0.003339, Q=0.714693, Q=0.056268, Q=0.047381, Q=0.057926, Q=0.015617, 
+iter[30] like=-2797591.698517 alpha=1.000000 Q=0.056773, Q=0.020695, Q=0.002248, Q=0.788817, Q=0.042798, Q=0.035506, Q=0.043643, Q=0.009521, 
+iter[40] like=-2777105.364827 alpha=1.000000 Q=0.045765, Q=0.014203, Q=0.001567, Q=0.836394, Q=0.034194, Q=0.027342, Q=0.034441, Q=0.006095, 
+iter[50] like=-2761662.406528 alpha=1.000000 Q=0.037529, Q=0.009903, Q=0.001112, Q=0.870481, Q=0.027920, Q=0.021267, Q=0.027795, Q=0.003992, 
+iter[60] like=-2749680.362337 alpha=1.000000 Q=0.030929, Q=0.006941, Q=0.000794, Q=0.896449, Q=0.022989, Q=0.016567, Q=0.022688, Q=0.002642, 
+iter[70] like=-2740270.700528 alpha=1.000000 Q=0.025499, Q=0.004873, Q=0.000568, Q=0.916794, Q=0.018993, Q=0.012892, Q=0.018622, Q=0.001758, 
+iter[80] like=-2723454.513165 alpha=16.000000 Q=0.015128, Q=0.001796, Q=0.000223, Q=0.953373, Q=0.011417, Q=0.006428, Q=0.011085, Q=0.000551, 
+iter[90] like=-2704417.132381 alpha=1.088413 Q=0.001501, Q=0.000010, Q=0.000010, Q=0.995702, Q=0.001294, Q=0.000159, Q=0.001313, Q=0.000010, 
+like after -2702646.908900
+CONVERGENCE!
+This many iterations 96 for run 0
+
+best like -2702646.908900 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.999930 0.000010 0.000010 0.000010 0.000010 best like -2702646.908900 after 0 runs!
+	-> Dumping file: 0733.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  263.61 sec
+	[ALL done] walltime used =  264.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0738.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0738
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0738.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.957309.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0738.bed + 0738.bim + 0738.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0738.log
+Input: -likes (null) -plink 0738 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0738 -whichPops all
+Setup: -seed 1714668451 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 122020766
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4585512 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3512781.941237
+iter[10] like=-3027918.593867 alpha=1.000000 Q=0.050189, Q=0.017080, Q=0.046190, Q=0.638700, Q=0.075442, Q=0.060119, Q=0.089064, Q=0.023215, 
+iter[20] like=-2965860.442694 alpha=1.000000 Q=0.034466, Q=0.009960, Q=0.026803, Q=0.768804, Q=0.049572, Q=0.039326, Q=0.059638, Q=0.011431, 
+iter[30] like=-2929438.145593 alpha=1.000000 Q=0.024632, Q=0.006124, Q=0.016568, Q=0.842103, Q=0.034967, Q=0.026809, Q=0.042685, Q=0.006111, 
+iter[40] like=-2904653.521286 alpha=1.000000 Q=0.017857, Q=0.003851, Q=0.010486, Q=0.889135, Q=0.025342, Q=0.018529, Q=0.031414, Q=0.003384, 
+iter[50] like=-2887298.831281 alpha=1.000000 Q=0.012945, Q=0.002432, Q=0.006662, Q=0.921647, Q=0.018416, Q=0.012783, Q=0.023222, Q=0.001893, 
+iter[60] like=-2875281.994363 alpha=1.000000 Q=0.009362, Q=0.001534, Q=0.004228, Q=0.944508, Q=0.013361, Q=0.008776, Q=0.017170, Q=0.001062, 
+iter[70] like=-2847048.761521 alpha=59.739053 Q=0.000021, Q=0.000020, Q=0.000051, Q=0.999687, Q=0.000039, Q=0.000020, Q=0.000137, Q=0.000025, 
+like after -2847039.229261
+CONVERGENCE!
+This many iterations 73 for run 0
+
+best like -2847039.229261 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.999930 0.000010 0.000010 0.000010 0.000010 best like -2847039.229261 after 0 runs!
+	-> Dumping file: 0738.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  222.98 sec
+	[ALL done] walltime used =  224.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0740.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0740
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0740.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.972302.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0740.bed + 0740.bim + 0740.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0740.log
+Input: -likes (null) -plink 0740 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0740 -whichPops all
+Setup: -seed 1714669307 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 123931768
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4654881 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3833757.494717
+iter[10] like=-3421285.957905 alpha=1.000000 Q=0.111824, Q=0.057390, Q=0.131238, Q=0.104598, Q=0.130337, Q=0.189173, Q=0.205510, Q=0.069929, 
+iter[20] like=-3084131.342512 alpha=1.000000 Q=0.073511, Q=0.015099, Q=0.034923, Q=0.619963, Q=0.058621, Q=0.081205, Q=0.105022, Q=0.011656, 
+iter[30] like=-3022351.636104 alpha=1.000000 Q=0.052429, Q=0.008335, Q=0.019588, Q=0.751479, Q=0.038342, Q=0.051296, Q=0.072695, Q=0.005836, 
+iter[40] like=-2986200.681126 alpha=1.000000 Q=0.039257, Q=0.004832, Q=0.011599, Q=0.826711, Q=0.026691, Q=0.033798, Q=0.053990, Q=0.003122, 
+iter[50] like=-2961633.162059 alpha=1.000000 Q=0.030157, Q=0.002859, Q=0.007021, Q=0.874796, Q=0.019148, Q=0.022604, Q=0.041695, Q=0.001721, 
+iter[60] like=-2944373.542188 alpha=1.000000 Q=0.023301, Q=0.001701, Q=0.004275, Q=0.908101, Q=0.013884, Q=0.015127, Q=0.032651, Q=0.000959, 
+iter[70] like=-2932068.606450 alpha=1.000000 Q=0.018011, Q=0.001012, Q=0.002605, Q=0.931929, Q=0.010099, Q=0.010091, Q=0.025717, Q=0.000536, 
+iter[80] like=-2923247.946077 alpha=1.000000 Q=0.013915, Q=0.000602, Q=0.001585, Q=0.949236, Q=0.007349, Q=0.006706, Q=0.020307, Q=0.000300, 
+iter[90] like=-2898721.570459 alpha=1.586880 Q=0.000196, Q=0.000010, Q=0.000010, Q=0.999189, Q=0.000025, Q=0.000010, Q=0.000550, Q=0.000010, 
+like after -2898397.663920
+CONVERGENCE!
+This many iterations 94 for run 0
+
+best like -2898397.663920 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.999930 0.000010 0.000010 0.000010 0.000010 best like -2898397.663920 after 0 runs!
+	-> Dumping file: 0740.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  299.60 sec
+	[ALL done] walltime used =  300.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0602.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0602
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0602.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.986757.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0602.bed + 0602.bim + 0602.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0602.log
+Input: -likes (null) -plink 0602 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0602 -whichPops all
+Setup: -seed 1714670269 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 125774193
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4725196 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3540383.612471
+iter[10] like=-3120662.203792 alpha=1.000000 Q=0.322296, Q=0.048193, Q=0.003832, Q=0.096869, Q=0.120395, Q=0.052703, Q=0.337679, Q=0.018032, 
+iter[20] like=-3065881.738705 alpha=1.000000 Q=0.323199, Q=0.027135, Q=0.002227, Q=0.067254, Q=0.097255, Q=0.031455, Q=0.441205, Q=0.010270, 
+iter[30] like=-3031289.237584 alpha=1.000000 Q=0.315105, Q=0.016299, Q=0.001372, Q=0.047827, Q=0.079883, Q=0.019832, Q=0.513472, Q=0.006210, 
+iter[40] like=-3002323.203231 alpha=1.000000 Q=0.298447, Q=0.009982, Q=0.000861, Q=0.034318, Q=0.066037, Q=0.012749, Q=0.573788, Q=0.003818, 
+iter[50] like=-2980182.933269 alpha=1.000000 Q=0.279208, Q=0.006098, Q=0.000540, Q=0.024556, Q=0.054039, Q=0.008201, Q=0.625020, Q=0.002338, 
+iter[60] like=-2963890.896002 alpha=1.000000 Q=0.265401, Q=0.003736, Q=0.000340, Q=0.017587, Q=0.043863, Q=0.005304, Q=0.662334, Q=0.001435, 
+iter[70] like=-2951819.797609 alpha=1.000000 Q=0.255454, Q=0.002303, Q=0.000215, Q=0.012656, Q=0.035531, Q=0.003457, Q=0.689498, Q=0.000886, 
+iter[80] like=-2919387.793030 alpha=9.732904 Q=0.232878, Q=0.000064, Q=0.000010, Q=0.001353, Q=0.008944, Q=0.000167, Q=0.756559, Q=0.000024, 
+iter[90] like=-2904640.820757 alpha=15.665987 Q=0.204795, Q=0.000010, Q=0.000010, Q=0.000059, Q=0.001233, Q=0.000010, Q=0.793874, Q=0.000010, 
+iter[100] like=-2899762.814303 alpha=14.806187 Q=0.192459, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000108, Q=0.000010, Q=0.807383, Q=0.000010, 
+iter[110] like=-2895083.593782 alpha=7.848821 Q=0.180836, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.819104, Q=0.000010, 
+iter[120] like=-2885122.704418 alpha=1.268121 Q=0.156605, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.843335, Q=0.000010, 
+iter[130] like=-2877261.329239 alpha=1.803339 Q=0.139475, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.860465, Q=0.000010, 
+iter[140] like=-2854194.292176 alpha=2.566624 Q=0.094576, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.905364, Q=0.000010, 
+iter[150] like=-2831538.444189 alpha=1.000000 Q=0.055247, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.944693, Q=0.000010, 
+like after -2807070.546744
+CONVERGENCE!
+This many iterations 159 for run 0
+
+best like -2807070.546744 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.000010 0.000010 0.000010 0.999930 0.000010 best like -2807070.546744 after 0 runs!
+	-> Dumping file: 0602.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  484.81 sec
+	[ALL done] walltime used =  486.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0603.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0603
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0603.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.995004.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0603.bed + 0603.bim + 0603.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0603.log
+Input: -likes (null) -plink 0603 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0603 -whichPops all
+Setup: -seed 1714671420 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 126825363
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4764774 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3387175.857407
+iter[10] like=-3034271.664862 alpha=1.000000 Q=0.259031, Q=0.011355, Q=0.023239, Q=0.099584, Q=0.073799, Q=0.050062, Q=0.445656, Q=0.037274, 
+iter[20] like=-2970893.541547 alpha=1.000000 Q=0.242049, Q=0.006193, Q=0.013078, Q=0.066581, Q=0.059716, Q=0.029319, Q=0.563164, Q=0.019899, 
+iter[30] like=-2928216.645439 alpha=1.000000 Q=0.221700, Q=0.003525, Q=0.007661, Q=0.045581, Q=0.048325, Q=0.017857, Q=0.644110, Q=0.011241, 
+iter[40] like=-2899855.852516 alpha=1.000000 Q=0.206221, Q=0.002056, Q=0.004581, Q=0.031628, Q=0.038906, Q=0.011108, Q=0.698992, Q=0.006507, 
+iter[50] like=-2880506.789535 alpha=1.000000 Q=0.195778, Q=0.001221, Q=0.002785, Q=0.022206, Q=0.031372, Q=0.007026, Q=0.735774, Q=0.003838, 
+iter[60] like=-2850380.659721 alpha=5.120139 Q=0.175150, Q=0.000374, Q=0.000900, Q=0.010128, Q=0.019458, Q=0.002511, Q=0.790325, Q=0.001155, 
+iter[70] like=-2804686.364526 alpha=14.372067 Q=0.118616, Q=0.000010, Q=0.000019, Q=0.000727, Q=0.003738, Q=0.000077, Q=0.876796, Q=0.000018, 
+iter[80] like=-2761720.222550 alpha=18.082453 Q=0.045096, Q=0.000010, Q=0.000010, Q=0.000017, Q=0.000323, Q=0.000010, Q=0.954524, Q=0.000010, 
+iter[90] like=-2738997.846617 alpha=1.436321 Q=0.007267, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.992672, Q=0.000010, 
+like after -2734827.264256
+CONVERGENCE!
+This many iterations 94 for run 0
+
+best like -2734827.264256 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.000010 0.000010 0.000010 0.999930 0.000010 best like -2734827.264256 after 0 runs!
+	-> Dumping file: 0603.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  283.15 sec
+	[ALL done] walltime used =  284.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0604.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0604
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0604.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.979138.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0604.bed + 0604.bim + 0604.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0604.log
+Input: -likes (null) -plink 0604 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0604 -whichPops all
+Setup: -seed 1714672403 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 124803062
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4687037 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3719989.457082
+iter[10] like=-3222516.584121 alpha=1.000000 Q=0.450352, Q=0.047732, Q=0.062180, Q=0.123698, Q=0.029204, Q=0.075379, Q=0.168261, Q=0.043194, 
+iter[20] like=-3132239.919792 alpha=1.000000 Q=0.485682, Q=0.025357, Q=0.034179, Q=0.087021, Q=0.026123, Q=0.043921, Q=0.275449, Q=0.022268, 
+iter[30] like=-3078641.090333 alpha=1.000000 Q=0.477276, Q=0.013933, Q=0.019288, Q=0.058260, Q=0.021281, Q=0.025772, Q=0.372172, Q=0.012017, 
+iter[40] like=-3028343.621060 alpha=8.000000 Q=0.438689, Q=0.004875, Q=0.007016, Q=0.027360, Q=0.013444, Q=0.009950, Q=0.494615, Q=0.004052, 
+iter[50] like=-3011649.866068 alpha=1.000000 Q=0.418627, Q=0.002522, Q=0.003701, Q=0.016543, Q=0.009623, Q=0.005425, Q=0.541517, Q=0.002042, 
+iter[60] like=-2969989.694826 alpha=3.043206 Q=0.292457, Q=0.000047, Q=0.000079, Q=0.000870, Q=0.001342, Q=0.000148, Q=0.705026, Q=0.000030, 
+iter[70] like=-2939170.069027 alpha=1.742046 Q=0.203880, Q=0.000010, Q=0.000010, Q=0.000056, Q=0.000199, Q=0.000010, Q=0.795825, Q=0.000010, 
+iter[80] like=-2892713.779031 alpha=1.000000 Q=0.109360, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000013, Q=0.000010, Q=0.890577, Q=0.000010, 
+iter[90] like=-2859373.091023 alpha=30.710426 Q=0.054158, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.945782, Q=0.000010, 
+iter[100] like=-2821526.173325 alpha=64.000000 Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.999930, Q=0.000010, 
+like after -2834313.144712
+CONVERGENCE!
+This many iterations 101 for run 0
+
+best like -2834313.144712 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.000010 0.000010 0.000010 0.999930 0.000010 best like -2834313.144712 after 0 runs!
+	-> Dumping file: 0604.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  304.31 sec
+	[ALL done] walltime used =  305.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0607.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0607
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0607.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.992329.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0607.bed + 0607.bim + 0607.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0607.log
+Input: -likes (null) -plink 0607 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0607 -whichPops all
+Setup: -seed 1714673332 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 126484484
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4751539 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3324407.864085
+iter[10] like=-2441453.710311 alpha=1.000000 Q=0.837491, Q=0.000203, Q=0.012880, Q=0.023324, Q=0.050161, Q=0.012903, Q=0.054776, Q=0.008261, 
+iter[20] like=-2277686.405766 alpha=12.252295 Q=0.999142, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000079, Q=0.000010, Q=0.000729, Q=0.000010, 
+like after -2277426.045730
+CONVERGENCE!
+This many iterations 23 for run 0
+
+best like -2277426.045730 after 0!
+Q 0.999930 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010  after 0!
+
+Estimated  Q = 0.999930 0.000010 0.000010 0.000010 0.000010 0.000010 0.000010 0.000010 best like -2277426.045730 after 0 runs!
+	-> Dumping file: 0607.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  74.51 sec
+	[ALL done] walltime used =  75.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0609.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0609
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0609.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.987322.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0609.bed + 0609.bim + 0609.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0609.log
+Input: -likes (null) -plink 0609 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0609 -whichPops all
+Setup: -seed 1714674078 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 125846248
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4727343 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3297436.519329
+iter[10] like=-2446902.707610 alpha=1.000000 Q=0.818238, Q=0.019572, Q=0.026331, Q=0.016376, Q=0.006535, Q=0.007865, Q=0.091244, Q=0.013839, 
+iter[20] like=-2265805.429827 alpha=9.148068 Q=0.993716, Q=0.000092, Q=0.000160, Q=0.000316, Q=0.000228, Q=0.000079, Q=0.005346, Q=0.000061, 
+like after -2259933.241928
+CONVERGENCE!
+This many iterations 26 for run 0
+
+best like -2259933.241928 after 0!
+Q 0.999930 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010  after 0!
+
+Estimated  Q = 0.999930 0.000010 0.000010 0.000010 0.000010 0.000010 0.000010 0.000010 best like -2259933.241928 after 0 runs!
+	-> Dumping file: 0609.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  71.93 sec
+	[ALL done] walltime used =  73.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0618.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0618
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0618.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.997683.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0618.bed + 0618.bim + 0618.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0618.log
+Input: -likes (null) -plink 0618 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0618 -whichPops all
+Setup: -seed 1714674840 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 127166818
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4778547 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3382666.264304
+iter[10] like=-2395256.582119 alpha=1.000000 Q=0.029505, Q=0.015672, Q=0.008658, Q=0.005037, Q=0.889284, Q=0.025864, Q=0.020932, Q=0.005048, 
+like after -2275295.236505
+CONVERGENCE!
+This many iterations 20 for run 0
+
+best like -2275295.236505 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010 Q 0.000010 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.000010 0.999930 0.000010 0.000010 0.000010 best like -2275295.236505 after 0 runs!
+	-> Dumping file: 0618.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  58.91 sec
+	[ALL done] walltime used =  59.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0629.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0629
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0629.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.99306.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0629.bed + 0629.bim + 0629.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0629.log
+Input: -likes (null) -plink 0629 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0629 -whichPops all
+Setup: -seed 1714675537 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 126577650
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4755198 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-4001630.657484
+iter[10] like=-3404789.217052 alpha=1.000000 Q=0.011933, Q=0.133932, Q=0.057864, Q=0.598983, Q=0.022226, Q=0.145332, Q=0.006035, Q=0.023696, 
+iter[20] like=-3349734.927789 alpha=1.000000 Q=0.003581, Q=0.096491, Q=0.039601, Q=0.703024, Q=0.009463, Q=0.134370, Q=0.001342, Q=0.012129, 
+iter[30] like=-3308395.747005 alpha=12.347808 Q=0.000073, Q=0.059758, Q=0.020853, Q=0.785652, Q=0.001006, Q=0.129370, Q=0.000010, Q=0.003279, 
+iter[40] like=-3288698.585475 alpha=9.977142 Q=0.000010, Q=0.021561, Q=0.003849, Q=0.809219, Q=0.000010, Q=0.165278, Q=0.000010, Q=0.000064, 
+iter[50] like=-3287947.511745 alpha=6.545024 Q=0.000010, Q=0.004525, Q=0.000283, Q=0.796330, Q=0.000010, Q=0.198822, Q=0.000010, Q=0.000010, 
+iter[60] like=-3288054.459399 alpha=3.376113 Q=0.000010, Q=0.000222, Q=0.000010, Q=0.792039, Q=0.000010, Q=0.207689, Q=0.000010, Q=0.000010, 
+iter[70] like=-3288031.794982 alpha=21.476137 Q=0.000010, Q=0.000010, Q=0.000010, Q=0.791931, Q=0.000010, Q=0.208009, Q=0.000010, Q=0.000010, 
+iter[80] like=-3288032.653737 alpha=8.049626 Q=0.000010, Q=0.000010, Q=0.000010, Q=0.791928, Q=0.000010, Q=0.208012, Q=0.000010, Q=0.000010, 
+like after -3288032.655988
+CONVERGENCE!
+This many iterations 83 for run 0
+
+best like -3288032.655988 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.791928 Q 0.000010 Q 0.208012 Q 0.000010 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.791928 0.000010 0.208012 0.000010 0.000010 best like -3288032.655988 after 0 runs!
+	-> Dumping file: 0629.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  252.75 sec
+	[ALL done] walltime used =  254.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0638.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0638
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0638.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.749921.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0638.bed + 0638.bim + 0638.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0638.log
+Input: -likes (null) -plink 0638 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0638 -whichPops all
+Setup: -seed 1714676422 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 95586552
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 3579932 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-2584979.525070
+iter[10] like=-2417144.306030 alpha=1.000000 Q=0.046039, Q=0.189636, Q=0.412620, Q=0.054397, Q=0.053983, Q=0.206522, Q=0.005340, Q=0.031464, 
+iter[20] like=-2401331.339469 alpha=1.000000 Q=0.032476, Q=0.198401, Q=0.463290, Q=0.038367, Q=0.041712, Q=0.188987, Q=0.003761, Q=0.033006, 
+iter[30] like=-2390564.655526 alpha=1.000000 Q=0.024208, Q=0.202263, Q=0.499605, Q=0.028429, Q=0.033828, Q=0.175320, Q=0.002789, Q=0.033558, 
+iter[40] like=-2382566.541312 alpha=1.000000 Q=0.018728, Q=0.203831, Q=0.526816, Q=0.021780, Q=0.028362, Q=0.164765, Q=0.002142, Q=0.033576, 
+iter[50] like=-2376270.345633 alpha=1.000000 Q=0.014855, Q=0.204269, Q=0.548087, Q=0.017069, Q=0.024329, Q=0.156410, Q=0.001686, Q=0.033295, 
+iter[60] like=-2357062.845897 alpha=2.710653 Q=0.005183, Q=0.203015, Q=0.611532, Q=0.005440, Q=0.012994, Q=0.130941, Q=0.000560, Q=0.030334, 
+iter[70] like=-2342353.034870 alpha=1.522155 Q=0.000973, Q=0.201249, Q=0.658319, Q=0.000815, Q=0.005377, Q=0.109083, Q=0.000095, Q=0.024091, 
+iter[80] like=-2336114.733093 alpha=26.960882 Q=0.000235, Q=0.202386, Q=0.677361, Q=0.000158, Q=0.002631, Q=0.097363, Q=0.000021, Q=0.019843, 
+iter[90] like=-2329371.753147 alpha=31.095406 Q=0.000010, Q=0.205824, Q=0.697059, Q=0.000010, Q=0.000668, Q=0.081973, Q=0.000010, Q=0.014446, 
+iter[100] like=-2325753.515303 alpha=9.728372 Q=0.000010, Q=0.208075, Q=0.707400, Q=0.000010, Q=0.000261, Q=0.072586, Q=0.000010, Q=0.011649, 
+iter[110] like=-2322546.420552 alpha=29.772494 Q=0.000010, Q=0.209790, Q=0.716381, Q=0.000010, Q=0.000104, Q=0.064243, Q=0.000010, Q=0.009451, 
+iter[120] like=-2320014.466990 alpha=18.064828 Q=0.000010, Q=0.210795, Q=0.723412, Q=0.000010, Q=0.000049, Q=0.057783, Q=0.000010, Q=0.007930, 
+iter[130] like=-2318114.076178 alpha=6.745773 Q=0.000010, Q=0.211295, Q=0.728714, Q=0.000010, Q=0.000028, Q=0.053029, Q=0.000010, Q=0.006904, 
+iter[140] like=-2312687.018268 alpha=38.590327 Q=0.000010, Q=0.211741, Q=0.743570, Q=0.000010, Q=0.000010, Q=0.040190, Q=0.000010, Q=0.004459, 
+iter[150] like=-2308608.327863 alpha=76.958981 Q=0.000010, Q=0.211174, Q=0.754539, Q=0.000010, Q=0.000010, Q=0.031187, Q=0.000010, Q=0.003060, 
+iter[160] like=-2302258.042967 alpha=4.307669 Q=0.000010, Q=0.209076, Q=0.772227, Q=0.000010, Q=0.000010, Q=0.017386, Q=0.000010, Q=0.001271, 
+iter[170] like=-2299171.212930 alpha=6.548193 Q=0.000010, Q=0.205891, Q=0.780788, Q=0.000010, Q=0.000010, Q=0.012479, Q=0.000010, Q=0.000802, 
+iter[180] like=-2296487.454640 alpha=5.520601 Q=0.000010, Q=0.201946, Q=0.788465, Q=0.000010, Q=0.000010, Q=0.009028, Q=0.000010, Q=0.000521, 
+iter[190] like=-2293422.670897 alpha=4.078114 Q=0.000010, Q=0.196592, Q=0.797341, Q=0.000010, Q=0.000010, Q=0.005737, Q=0.000010, Q=0.000290, 
+iter[200] like=-2291604.816956 alpha=2.594918 Q=0.000010, Q=0.193011, Q=0.802663, Q=0.000010, Q=0.000010, Q=0.004095, Q=0.000010, Q=0.000191, 
+iter[210] like=-2289366.108034 alpha=84.397742 Q=0.000010, Q=0.188356, Q=0.809251, Q=0.000010, Q=0.000010, Q=0.002261, Q=0.000010, Q=0.000093, 
+iter[220] like=-2288432.908849 alpha=4.122545 Q=0.000010, Q=0.186318, Q=0.811974, Q=0.000010, Q=0.000010, Q=0.001607, Q=0.000010, Q=0.000062, 
+iter[230] like=-2288008.726947 alpha=7.391689 Q=0.000010, Q=0.185339, Q=0.813211, Q=0.000010, Q=0.000010, Q=0.001359, Q=0.000010, Q=0.000051, 
+iter[240] like=-2285286.497539 alpha=14.644234 Q=0.000010, Q=0.178402, Q=0.821093, Q=0.000010, Q=0.000010, Q=0.000452, Q=0.000010, Q=0.000014, 
+iter[250] like=-2283090.470213 alpha=25.673694 Q=0.000010, Q=0.172203, Q=0.827495, Q=0.000010, Q=0.000010, Q=0.000252, Q=0.000010, Q=0.000010, 
+iter[260] like=-2281269.327422 alpha=8.382995 Q=0.000010, Q=0.166933, Q=0.832853, Q=0.000010, Q=0.000010, Q=0.000164, Q=0.000010, Q=0.000010, 
+iter[270] like=-2278372.696089 alpha=33.533549 Q=0.000010, Q=0.158799, Q=0.841061, Q=0.000010, Q=0.000010, Q=0.000091, Q=0.000010, Q=0.000010, 
+iter[280] like=-2273868.348202 alpha=36.290978 Q=0.000010, Q=0.146515, Q=0.853389, Q=0.000010, Q=0.000010, Q=0.000047, Q=0.000010, Q=0.000010, 
+iter[290] like=-2271168.125744 alpha=4.326268 Q=0.000010, Q=0.139122, Q=0.860793, Q=0.000010, Q=0.000010, Q=0.000035, Q=0.000010, Q=0.000010, 
+iter[300] like=-2267319.495904 alpha=10.747239 Q=0.000010, Q=0.129099, Q=0.870826, Q=0.000010, Q=0.000010, Q=0.000025, Q=0.000010, Q=0.000010, 
+iter[310] like=-2248059.671541 alpha=31.305746 Q=0.000010, Q=0.081950, Q=0.917990, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, 
+iter[320] like=-2233948.129436 alpha=1.000000 Q=0.000010, Q=0.048524, Q=0.951416, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, 
+iter[330] like=-2232346.741913 alpha=1.000000 Q=0.000010, Q=0.044852, Q=0.955088, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, 
+iter[340] like=-2230808.465465 alpha=1.000000 Q=0.000010, Q=0.041337, Q=0.958603, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, 
+iter[350] like=-2229339.430820 alpha=1.000000 Q=0.000010, Q=0.037993, Q=0.961947, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, 
+iter[360] like=-2227944.320129 alpha=1.000000 Q=0.000010, Q=0.034829, Q=0.965111, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, 
+iter[370] like=-2226626.403686 alpha=1.000000 Q=0.000010, Q=0.031848, Q=0.968092, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, 
+iter[380] like=-2225387.613525 alpha=1.000000 Q=0.000010, Q=0.029055, Q=0.970885, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, 
+like after -2225387.613528
+CONVERGENCE!
+This many iterations 382 for run 0
+
+best like -2225387.613528 after 0!
+Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.999930 0.000010 0.000010 0.000010 0.000010 0.000010 best like -2225387.613528 after 0 runs!
+	-> Dumping file: 0638.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  833.20 sec
+	[ALL done] walltime used =  835.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0639.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0639
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0639.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.820227.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0639.bed + 0639.bim + 0639.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0639.log
+Input: -likes (null) -plink 0639 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0639 -whichPops all
+Setup: -seed 1714677915 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 104547954
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 3911661 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-2855836.398627
+iter[10] like=-2662752.319435 alpha=1.000000 Q=0.010085, Q=0.367955, Q=0.101278, Q=0.099207, Q=0.070104, Q=0.316670, Q=0.007604, Q=0.027096, 
+iter[20] like=-2646921.753593 alpha=1.000000 Q=0.007588, Q=0.383350, Q=0.149046, Q=0.070157, Q=0.055724, Q=0.294368, Q=0.005825, Q=0.033943, 
+iter[30] like=-2605351.831970 alpha=3.169439 Q=0.002782, Q=0.313205, Q=0.381521, Q=0.021926, Q=0.026304, Q=0.204590, Q=0.002266, Q=0.047407, 
+iter[40] like=-2574877.993120 alpha=2.275892 Q=0.001088, Q=0.233600, Q=0.538111, Q=0.007995, Q=0.014314, Q=0.159075, Q=0.000922, Q=0.044895, 
+iter[50] like=-2558978.247833 alpha=2.192475 Q=0.000368, Q=0.203864, Q=0.603881, Q=0.002588, Q=0.007820, Q=0.139748, Q=0.000319, Q=0.041412, 
+iter[60] like=-2551515.297266 alpha=16.507731 Q=0.000086, Q=0.194361, Q=0.630602, Q=0.000569, Q=0.003762, Q=0.131672, Q=0.000075, Q=0.038873, 
+iter[70] like=-2548786.490970 alpha=7.811017 Q=0.000012, Q=0.192799, Q=0.639394, Q=0.000070, Q=0.001492, Q=0.128984, Q=0.000010, Q=0.037238, 
+iter[80] like=-2548221.645034 alpha=15.473706 Q=0.000010, Q=0.192948, Q=0.641044, Q=0.000017, Q=0.000774, Q=0.128549, Q=0.000010, Q=0.036648, 
+iter[90] like=-2547913.718984 alpha=6.923786 Q=0.000010, Q=0.193168, Q=0.641891, Q=0.000010, Q=0.000272, Q=0.128442, Q=0.000010, Q=0.036197, 
+iter[100] like=-2547794.073381 alpha=3.382092 Q=0.000010, Q=0.193277, Q=0.642186, Q=0.000010, Q=0.000014, Q=0.128555, Q=0.000010, Q=0.035938, 
+iter[110] like=-2547794.224252 alpha=7.519077 Q=0.000010, Q=0.193272, Q=0.642184, Q=0.000010, Q=0.000010, Q=0.128574, Q=0.000010, Q=0.035930, 
+iter[120] like=-2547795.014603 alpha=9.265653 Q=0.000010, Q=0.193271, Q=0.642182, Q=0.000010, Q=0.000010, Q=0.128580, Q=0.000010, Q=0.035927, 
+iter[130] like=-2547795.409847 alpha=1.422979 Q=0.000010, Q=0.193270, Q=0.642180, Q=0.000010, Q=0.000010, Q=0.128583, Q=0.000010, Q=0.035926, 
+like after -2547795.574840
+CONVERGENCE!
+This many iterations 133 for run 0
+
+best like -2547795.574840 after 0!
+Q 0.000010 Q 0.193270 Q 0.642180 Q 0.000010 Q 0.000010 Q 0.128584 Q 0.000010 Q 0.035926  after 0!
+
+Estimated  Q = 0.000010 0.193270 0.642180 0.000010 0.000010 0.128584 0.000010 0.035926 best like -2547795.574840 after 0 runs!
+	-> Dumping file: 0639.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  336.74 sec
+	[ALL done] walltime used =  338.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0647.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0647
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0647.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.933955.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0647.bed + 0647.bim + 0647.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0647.log
+Input: -likes (null) -plink 0647 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0647 -whichPops all
+Setup: -seed 1714678929 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 119044000
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4469452 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3313946.870436
+iter[10] like=-2811049.555215 alpha=1.000000 Q=0.050658, Q=0.073275, Q=0.080145, Q=0.042655, Q=0.050412, Q=0.674137, Q=0.007096, Q=0.021623, 
+iter[20] like=-2693260.415463 alpha=1.000000 Q=0.020857, Q=0.035030, Q=0.040053, Q=0.017478, Q=0.023245, Q=0.850829, Q=0.002900, Q=0.009609, 
+iter[30] like=-2634212.216435 alpha=1.000000 Q=0.008060, Q=0.015235, Q=0.018142, Q=0.006557, Q=0.009881, Q=0.937083, Q=0.001116, Q=0.003925, 
+like after -2591517.153671
+CONVERGENCE!
+This many iterations 39 for run 0
+
+best like -2591517.153671 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.000010 0.000010 0.999930 0.000010 0.000010 best like -2591517.153671 after 0 runs!
+	-> Dumping file: 0647.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  117.81 sec
+	[ALL done] walltime used =  118.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0651.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0651
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0651.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.864113.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0651.bed + 0651.bim + 0651.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0651.log
+Input: -likes (null) -plink 0651 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0651 -whichPops all
+Setup: -seed 1714679676 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 110141771
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4142642 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3149699.568542
+iter[10] like=-2795276.334417 alpha=1.000000 Q=0.039764, Q=0.514347, Q=0.040832, Q=0.053256, Q=0.025430, Q=0.224273, Q=0.044308, Q=0.057790, 
+iter[20] like=-2764262.045323 alpha=1.000000 Q=0.025672, Q=0.588204, Q=0.046903, Q=0.035795, Q=0.017929, Q=0.191856, Q=0.028279, Q=0.065362, 
+iter[30] like=-2745528.102067 alpha=1.000000 Q=0.017853, Q=0.632846, Q=0.052158, Q=0.025607, Q=0.013403, Q=0.168314, Q=0.019487, Q=0.070332, 
+iter[40] like=-2732693.401545 alpha=1.000000 Q=0.012994, Q=0.662064, Q=0.057089, Q=0.019062, Q=0.010409, Q=0.150537, Q=0.014075, Q=0.073769, 
+iter[50] like=-2701839.470481 alpha=13.472224 Q=0.003127, Q=0.726295, Q=0.081805, Q=0.005012, Q=0.003487, Q=0.096072, Q=0.003268, Q=0.080934, 
+iter[60] like=-2689810.432431 alpha=21.412563 Q=0.000381, Q=0.741410, Q=0.129858, Q=0.000700, Q=0.000743, Q=0.048684, Q=0.000379, Q=0.077845, 
+iter[70] like=-2689801.270583 alpha=22.277530 Q=0.000043, Q=0.724833, Q=0.182493, Q=0.000092, Q=0.000153, Q=0.022397, Q=0.000040, Q=0.069949, 
+iter[80] like=-2690651.246412 alpha=5.548891 Q=0.000010, Q=0.710950, Q=0.214577, Q=0.000016, Q=0.000038, Q=0.010714, Q=0.000010, Q=0.063685, 
+iter[90] like=-2690336.406313 alpha=3.740562 Q=0.000010, Q=0.704017, Q=0.233944, Q=0.000010, Q=0.000010, Q=0.003626, Q=0.000010, Q=0.058373, 
+iter[100] like=-2689726.345247 alpha=2.764117 Q=0.000010, Q=0.703316, Q=0.240006, Q=0.000010, Q=0.000010, Q=0.000976, Q=0.000010, Q=0.055662, 
+iter[110] like=-2689503.742769 alpha=4.336297 Q=0.000010, Q=0.703406, Q=0.241432, Q=0.000010, Q=0.000010, Q=0.000329, Q=0.000010, Q=0.054793, 
+iter[120] like=-2689372.077287 alpha=95.989154 Q=0.000010, Q=0.703513, Q=0.242160, Q=0.000010, Q=0.000010, Q=0.000025, Q=0.000010, Q=0.054261, 
+iter[130] like=-2689363.785086 alpha=4.688835 Q=0.000010, Q=0.703523, Q=0.242219, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.054207, 
+iter[140] like=-2689362.018255 alpha=3.729669 Q=0.000010, Q=0.703524, Q=0.242235, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.054190, 
+iter[150] like=-2689361.762129 alpha=1.715467 Q=0.000010, Q=0.703524, Q=0.242237, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.054188, 
+iter[160] like=-2689361.727437 alpha=7.405663 Q=0.000010, Q=0.703524, Q=0.242238, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.000010, Q=0.054188, 
+like after -2689361.727438
+CONVERGENCE!
+This many iterations 162 for run 0
+
+best like -2689361.727438 after 0!
+Q 0.000010 Q 0.703524 Q 0.242238 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.054188  after 0!
+
+Estimated  Q = 0.000010 0.703524 0.242238 0.000010 0.000010 0.000010 0.000010 0.054188 best like -2689361.727438 after 0 runs!
+	-> Dumping file: 0651.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  444.42 sec
+	[ALL done] walltime used =  446.00 sec
+PLINK v1.90b7 64-bit (16 Jan 2023)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2023 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to 0657.log.
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly
+  --keep keep.tmp
+  --make-bed
+  --out 0657
+
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+127462209 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to 0657.nosex .
+--keep: 1 person remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate in remaining samples is 0.87447.
+127462209 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to 0657.bed + 0657.bim + 0657.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+	-> Dumping file: 0657.log
+Input: -likes (null) -plink 0657 -Nname ../Tory_nofarms.8.nind -fname ../Tory_nofarms.8.ref.txt -out 0657 -whichPops all
+Setup: -seed 1714680747 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 111461834
+Ref has this many sites 4790135
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 4182107 sites between input and ref
+Chosen pop Bot
+Chosen pop TanNE
+Chosen pop TanNW
+Chosen pop Zim
+Chosen pop Zam
+Chosen pop TanS
+Chosen pop Nam
+Chosen pop Eth
+
+
+nPop=8
+
+Opening nInd file: ../Tory_nofarms.8.nind with nPop=8
+N = 5.000170
+N = 7.999940
+N = 7.000010
+N = 11.868000
+N = 5.000180
+N = 8.999860
+N = 7.131650
+N = 4.000220
+
+iter[start] like is=-3081531.689906
+iter[10] like=-2884168.988867 alpha=1.000000 Q=0.082482, Q=0.266971, Q=0.088854, Q=0.018228, Q=0.043424, Q=0.428512, Q=0.059578, Q=0.011950, 
+iter[20] like=-2867170.204412 alpha=1.000000 Q=0.068457, Q=0.228526, Q=0.085321, Q=0.018150, Q=0.042400, Q=0.499659, Q=0.047224, Q=0.010263, 
+iter[30] like=-2853575.655543 alpha=1.000000 Q=0.058359, Q=0.198265, Q=0.081521, Q=0.017812, Q=0.041370, Q=0.555247, Q=0.038586, Q=0.008840, 
+iter[40] like=-2842501.123801 alpha=1.000000 Q=0.050812, Q=0.175209, Q=0.078112, Q=0.017381, Q=0.040456, Q=0.598075, Q=0.032273, Q=0.007682, 
+iter[50] like=-2833298.395385 alpha=1.000000 Q=0.044881, Q=0.157560, Q=0.075218, Q=0.016900, Q=0.039679, Q=0.631565, Q=0.027459, Q=0.006736, 
+iter[60] like=-2825553.612814 alpha=1.000000 Q=0.040083, Q=0.143785, Q=0.072804, Q=0.016388, Q=0.039024, Q=0.658285, Q=0.023678, Q=0.005953, 
+iter[70] like=-2809956.976285 alpha=16.000000 Q=0.030802, Q=0.118608, Q=0.068093, Q=0.015016, Q=0.037713, Q=0.708686, Q=0.016678, Q=0.004404, 
+iter[80] like=-2779042.037620 alpha=8.669893 Q=0.015297, Q=0.079363, Q=0.059009, Q=0.010619, Q=0.034744, Q=0.792474, Q=0.006656, Q=0.001839, 
+iter[90] like=-2749558.035398 alpha=7.102475 Q=0.006221, Q=0.048734, Q=0.045774, Q=0.005616, Q=0.027849, Q=0.862961, Q=0.002246, Q=0.000599, 
+iter[100] like=-2720976.565946 alpha=15.655911 Q=0.001992, Q=0.024090, Q=0.027703, Q=0.002087, Q=0.016646, Q=0.926689, Q=0.000631, Q=0.000161, 
+iter[110] like=-2703304.769014 alpha=19.305917 Q=0.000614, Q=0.010797, Q=0.014338, Q=0.000677, Q=0.008225, Q=0.965125, Q=0.000179, Q=0.000045, 
+like after -2687019.985957
+CONVERGENCE!
+This many iterations 117 for run 0
+
+best like -2687019.985957 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999930 Q 0.000010 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.000010 0.000010 0.999930 0.000010 0.000010 best like -2687019.985957 after 0 runs!
+	-> Dumping file: 0657.qopt
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  312.05 sec
+	[ALL done] walltime used =  312.00 sec

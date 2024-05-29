@@ -1,0 +1,21 @@
+nohup: ignoring input
+Warning the plink file appears to have non autosomal chromosomes (chromosome number > 22) and/or undefined chromosomes (chromosome name=0)
+NGSremix -plink BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_gk_ge_eland -fname BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_gk_ge_eland.3.P -bothanc 1 -P 100 -o gk_ge_eland 
+	-> Seed is: 888358043
+	-> Will assume these are the plink files:
+		bed: BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_gk_ge_eland.bed
+		bim: BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_gk_ge_eland.bim
+		fam: BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_gk_ge_eland.fam
+	-> Plink file contains 150 samples
+	-> Plink file contains 168100736 autosomale SNPs
+	-> reading genotypes
+	-> Allocated: 50.430 gig memory
+	-> done allocating and reading plink 
+	running i1:0	running i1:110	running i1:120	running i1:140	running i1:90	running i1:130	running i1:100	running i1:60	running i1:70	running i1:40	running i1:50	running i1:10	running i1:80	running i1:20	running i1:30
+	-> K=3	nSites=168100736	nInd=150
+	-> Opening : BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_gk_ge_eland.3.P with x=168100736 y=3
+	-> Estimating ancestry coefficients. Dumping to gk_ge_eland.anccoef
+	-> 150 ancestry estimates took 26722 sec.
+	[ALL done] cpu-time used =  942855.88 sec
+	[ALL done] walltime used =  27074.00 sec
+	[ALL done] results have been outputted to gk_ge_eland.anccoef

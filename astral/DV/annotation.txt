@@ -1,0 +1,9 @@
+TderSSu_0966.Cattle.bam	giant_eland
+ToryEth_0652.Cattle.bam	eland
+TstrBot_0759.Cattle.bam	greater_kudu
+TbuxEth_0865.Cattle.bam	mountain_nyala
+TspeCam_1021.Cattle.bam	sitatunga
+TstrZam_0843.Cattle.bam	waterbuck
+ScafKen_1010.Cattle.bam	nyala
+TimbSom_0980.Cattle.bam	lesser_kudu
+TspeGha_0887.Cattle.bam	bushbuck

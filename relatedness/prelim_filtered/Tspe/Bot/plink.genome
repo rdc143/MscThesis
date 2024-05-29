@@ -1,0 +1,4 @@
+     FID1 IID1     FID2 IID2 RT    EZ      Z0      Z1      Z2  PI_HAT PHE       DST     PPC   RATIO
+  TspeBot 0867  TspeBot 0868 OT     0  0.6836  0.2357  0.0807  0.1985  -1  0.692114  1.0000  4.7182
+  TspeBot 0867  TspeBot 0869 OT     0  0.6572  0.2850  0.0578  0.2003  -1  0.690462  1.0000  5.1625
+  TspeBot 0868  TspeBot 0869 OT     0  0.6032  0.3479  0.0489  0.2228  -1  0.695885  1.0000  5.1485

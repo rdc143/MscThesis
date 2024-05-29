@@ -1,0 +1,38 @@
+Outgroup x
+ScafKen x
+ScafNA- x
+TbuxEth x
+TderCam x
+TderCha x
+TderSSu x
+TderUga x
+TimbAby x
+TimbEth x
+TimbKen x
+TimbSom x
+TimbTan x
+TimbUga x
+ToryBot 
+ToryEth
+ToryKen
+ToryNam
+ToryRSA
+ToryTan
+ToryZam
+ToryZim
+TscrGha x
+TspeBot
+TspeCam
+TspeCon
+TspeDRC
+TspeGha
+TspeTan
+TspeZam
+TstrBot
+TstrNA-
+TstrNam
+TstrRSA
+TstrTan
+TstrZam
+TstrZim
+xxx

@@ -1,0 +1,359 @@
+beagle.27Jan18.7e1.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.27Jan18.7e1.jar" for a summary of command line arguments.
+Start time: 06:50 PM CEST on 04 Apr 2024
+
+Command line: java -Xmx54613m -jar beagle.jar
+  gl=results/gl/Bostau9_tragmain2_sites_variable_noindels_renamed_Timb.bcf.gz.NC_037354.1.vcf.gz
+  chrom=NC_037354.1
+  out=results/imputed/Bostau9_tragmain2_sites_variable_noindels_renamed_Timb.bcf.gz.NC_037354.1
+  nthreads=6
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:       0
+target samples:         53
+
+Window 1 [ NC_037354.1:5464-18936628 ]
+target markers:      50000
+
+Starting burn-in iterations
+
+Window=1 Iteration=1
+Time for building model:         3 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 18
+mean edges/node:  1.823  mean count/edge: 21
+
+Window=1 Iteration=2
+Time for building model:         2 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 4      max edges/level: 16
+mean edges/node:  1.637  mean count/edge: 27
+
+Window=1 Iteration=3
+Time for building model:         5 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 4      max edges/level: 18
+mean edges/node:  1.497  mean count/edge: 27
+
+Window=1 Iteration=4
+Time for building model:         2 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 4      max edges/level: 16
+mean edges/node:  1.443  mean count/edge: 27
+
+Window=1 Iteration=5
+Time for building model:         2 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 4      max edges/level: 18
+mean edges/node:  1.417  mean count/edge: 27
+
+Window=1 Iteration=6
+Time for building model:         2 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 4      max edges/level: 20
+mean edges/node:  1.393  mean count/edge: 27
+
+Window=1 Iteration=7
+Time for building model:         5 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 4      max edges/level: 18
+mean edges/node:  1.384  mean count/edge: 27
+
+Window=1 Iteration=8
+Time for building model:         15 seconds
+Time for sampling (singles):     3 seconds
+DAG statistics
+mean edges/level: 4      max edges/level: 21
+mean edges/node:  1.371  mean count/edge: 27
+
+Window=1 Iteration=9
+Time for building model:         4 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 4      max edges/level: 18
+mean edges/node:  1.364  mean count/edge: 27
+
+Window=1 Iteration=10
+Time for building model:         1 second
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 4      max edges/level: 20
+mean edges/node:  1.352  mean count/edge: 27
+
+Starting phasing iterations
+
+Window=1 Iteration=11
+Time for building model:         3 seconds
+Time for sampling (singles):     37 seconds
+DAG statistics
+mean edges/level: 6      max edges/level: 19
+mean edges/node:  1.311  mean count/edge: 18
+
+Window=1 Iteration=12
+Time for building model:         29 seconds
+Time for sampling (singles):     3 minutes 8 seconds
+DAG statistics
+mean edges/level: 8      max edges/level: 26
+mean edges/node:  1.241  mean count/edge: 13
+
+Window=1 Iteration=13
+Time for building model:         1 minute 13 seconds
+Time for sampling (singles):     1 minute 50 seconds
+DAG statistics
+mean edges/level: 8      max edges/level: 24
+mean edges/node:  1.236  mean count/edge: 13
+
+Window=1 Iteration=14
+Time for building model:         1 minute 20 seconds
+Time for sampling (singles):     2 minutes 5 seconds
+DAG statistics
+mean edges/level: 12     max edges/level: 27
+mean edges/node:  1.167  mean count/edge: 9
+
+Window=1 Iteration=15
+Time for building model:         1 minute 56 seconds
+Time for sampling (singles):     2 minutes 49 seconds
+DAG statistics
+mean edges/level: 13     max edges/level: 33
+mean edges/node:  1.138  mean count/edge: 8
+
+Window 2 [ NC_037354.1:17476955-40140985 ]
+target markers:      50000
+
+Starting burn-in iterations
+
+Window=2 Iteration=1
+Time for building model:         2 minutes 2 seconds
+Time for sampling (singles):     6 seconds
+DAG statistics
+mean edges/level: 6      max edges/level: 27
+mean edges/node:  1.694  mean count/edge: 18
+
+Window=2 Iteration=2
+Time for building model:         1 minute 52 seconds
+Time for sampling (singles):     7 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 16
+mean edges/node:  1.548  mean count/edge: 21
+
+Window=2 Iteration=3
+Time for building model:         1 minute 45 seconds
+Time for sampling (singles):     19 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 29
+mean edges/node:  1.357  mean count/edge: 21
+
+Window=2 Iteration=4
+Time for building model:         1 minute 48 seconds
+Time for sampling (singles):     17 seconds
+DAG statistics
+mean edges/level: 4      max edges/level: 19
+mean edges/node:  1.334  mean count/edge: 27
+
+Window=2 Iteration=5
+Time for building model:         3 minutes 3 seconds
+Time for sampling (singles):     9 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 30
+mean edges/node:  1.289  mean count/edge: 21
+
+Window=2 Iteration=6
+Time for building model:         3 minutes 48 seconds
+Time for sampling (singles):     13 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 18
+mean edges/node:  1.299  mean count/edge: 21
+
+Window=2 Iteration=7
+Time for building model:         3 minutes 16 seconds
+Time for sampling (singles):     24 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 29
+mean edges/node:  1.274  mean count/edge: 21
+
+Window=2 Iteration=8
+Time for building model:         2 minutes 56 seconds
+Time for sampling (singles):     15 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 19
+mean edges/node:  1.284  mean count/edge: 21
+
+Window=2 Iteration=9
+Time for building model:         4 minutes 56 seconds
+Time for sampling (singles):     15 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 30
+mean edges/node:  1.262  mean count/edge: 21
+
+Window=2 Iteration=10
+Time for building model:         5 minutes 36 seconds
+Time for sampling (singles):     20 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 18
+mean edges/node:  1.276  mean count/edge: 21
+
+Starting phasing iterations
+
+Window=2 Iteration=11
+Time for building model:         1 minute 47 seconds
+Time for sampling (singles):     2 minutes 12 seconds
+DAG statistics
+mean edges/level: 6      max edges/level: 30
+mean edges/node:  1.228  mean count/edge: 18
+
+Window=2 Iteration=12
+Time for building model:         1 minute 33 seconds
+Time for sampling (singles):     4 minutes 16 seconds
+DAG statistics
+mean edges/level: 7      max edges/level: 25
+mean edges/node:  1.211  mean count/edge: 15
+
+Window=2 Iteration=13
+Time for building model:         1 minute 8 seconds
+Time for sampling (singles):     3 minutes 46 seconds
+DAG statistics
+mean edges/level: 7      max edges/level: 30
+mean edges/node:  1.201  mean count/edge: 15
+
+Window=2 Iteration=14
+Time for building model:         1 minute 27 seconds
+Time for sampling (singles):     4 minutes 11 seconds
+DAG statistics
+mean edges/level: 12     max edges/level: 27
+mean edges/node:  1.126  mean count/edge: 9
+
+Window=2 Iteration=15
+Time for building model:         1 minute 32 seconds
+Time for sampling (singles):     3 minutes 28 seconds
+DAG statistics
+mean edges/level: 13     max edges/level: 29
+mean edges/node:  1.101  mean count/edge: 8
+
+Window 3 [ NC_037354.1:38982593-45607065 ]
+target markers:      17962
+
+Starting burn-in iterations
+
+Window=3 Iteration=1
+Time for building model:         1 minute 19 seconds
+Time for sampling (singles):     16 seconds
+DAG statistics
+mean edges/level: 6      max edges/level: 24
+mean edges/node:  1.643  mean count/edge: 18
+
+Window=3 Iteration=2
+Time for building model:         1 minute 2 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 5      max edges/level: 18
+mean edges/node:  1.566  mean count/edge: 21
+
+Window=3 Iteration=3
+Time for building model:         46 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 5      max edges/level: 24
+mean edges/node:  1.366  mean count/edge: 21
+
+Window=3 Iteration=4
+Time for building model:         1 minute 10 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 18
+mean edges/node:  1.358  mean count/edge: 21
+
+Window=3 Iteration=5
+Time for building model:         48 seconds
+Time for sampling (singles):     4 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 23
+mean edges/node:  1.300  mean count/edge: 21
+
+Window=3 Iteration=6
+Time for building model:         1 minute 2 seconds
+Time for sampling (singles):     1 second
+DAG statistics
+mean edges/level: 5      max edges/level: 18
+mean edges/node:  1.322  mean count/edge: 21
+
+Window=3 Iteration=7
+Time for building model:         33 seconds
+Time for sampling (singles):     5 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 24
+mean edges/node:  1.279  mean count/edge: 21
+
+Window=3 Iteration=8
+Time for building model:         1 minute 40 seconds
+Time for sampling (singles):     2 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 18
+mean edges/node:  1.300  mean count/edge: 21
+
+Window=3 Iteration=9
+Time for building model:         45 seconds
+Time for sampling (singles):     11 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 24
+mean edges/node:  1.266  mean count/edge: 21
+
+Window=3 Iteration=10
+Time for building model:         1 minute 21 seconds
+Time for sampling (singles):     8 seconds
+DAG statistics
+mean edges/level: 5      max edges/level: 18
+mean edges/node:  1.292  mean count/edge: 21
+
+Starting phasing iterations
+
+Window=3 Iteration=11
+Time for building model:         29 seconds
+Time for sampling (singles):     1 minute 57 seconds
+DAG statistics
+mean edges/level: 7      max edges/level: 25
+mean edges/node:  1.215  mean count/edge: 15
+
+Window=3 Iteration=12
+Time for building model:         31 seconds
+Time for sampling (singles):     1 minute 38 seconds
+DAG statistics
+mean edges/level: 8      max edges/level: 22
+mean edges/node:  1.210  mean count/edge: 13
+
+Window=3 Iteration=13
+Time for building model:         33 seconds
+Time for sampling (singles):     1 minute 31 seconds
+DAG statistics
+mean edges/level: 12     max edges/level: 26
+mean edges/node:  1.146  mean count/edge: 9
+
+Window=3 Iteration=14
+Time for building model:         37 seconds
+Time for sampling (singles):     1 minute 40 seconds
+DAG statistics
+mean edges/level: 13     max edges/level: 28
+mean edges/node:  1.120  mean count/edge: 8
+
+Window=3 Iteration=15
+Time for building model:         30 seconds
+Time for sampling (singles):     1 minute 45 seconds
+DAG statistics
+mean edges/level: 14     max edges/level: 30
+mean edges/node:  1.100  mean count/edge: 8
+
+Number of markers:              111962
+Total time for building model: 57 minutes 17 seconds
+Total time for sampling:       40 minutes 41 seconds
+Total run time:                1 hour 42 minutes 53 seconds
+
+End time: 08:33 PM CEST on 04 Apr 2024
+beagle.27Jan18.7e1.jar (version 4.1) finished

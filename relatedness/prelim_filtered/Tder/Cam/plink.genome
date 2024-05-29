@@ -1,0 +1,4 @@
+     FID1 IID1     FID2 IID2 RT    EZ      Z0      Z1      Z2  PI_HAT PHE       DST     PPC   RATIO
+  TderCam 0659  TderCam 0660 OT     0  0.4789  0.4122  0.1089  0.3150  -1  0.730155  1.0000  6.3946
+  TderCam 0659  TderCam 0958 OT     0  0.7289  0.2711  0.0000  0.1356  -1  0.647723  1.0000  3.8433
+  TderCam 0660  TderCam 0958 OT     0  0.6440  0.3560  0.0000  0.1780  -1  0.650185  1.0000  4.0086

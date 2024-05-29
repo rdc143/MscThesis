@@ -1,0 +1,32 @@
+PLINK v2.00a3.3LM 64-bit Intel (3 Jun 2022)
+Options in effect:
+  --allow-extra-chr
+  --make-bed
+  --max-alleles 2
+  --out BosTau9_tragmain2_Xchr_gk_newconvert
+  --snps-only
+  --threads 64
+  --vcf BosTau9_tragmain2_Xchr_gk.vcf.gz
+
+Hostname: scarbpop04fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/0757
+Start time: Thu Apr 11 15:51:51 2024
+
+Random number seed: 1712843511
+515137 MiB RAM detected; reserving 257568 MiB for main workspace.
+Using up to 64 threads (change this with --threads).
+--vcf: 124525747 variants scanned.
+--vcf: BosTau9_tragmain2_Xchr_gk_newconvert-temporary.pgen +
+BosTau9_tragmain2_Xchr_gk_newconvert-temporary.pvar.zst +
+BosTau9_tragmain2_Xchr_gk_newconvert-temporary.psam written.
+54 samples (0 females, 0 males, 54 ambiguous; 54 founders) loaded from
+BosTau9_tragmain2_Xchr_gk_newconvert-temporary.psam.
+122299903 out of 124525747 variants loaded from
+BosTau9_tragmain2_Xchr_gk_newconvert-temporary.pvar.zst.
+Note: No phenotype data present.
+122299903 variants remaining after main filters.
+Writing BosTau9_tragmain2_Xchr_gk_newconvert.fam ... done.
+Writing BosTau9_tragmain2_Xchr_gk_newconvert.bim ... done.
+Writing BosTau9_tragmain2_Xchr_gk_newconvert.bed ... done.
+
+End time: Thu Apr 11 15:55:36 2024

@@ -1,0 +1,4 @@
+/maps/projects/popgen/data/tragelaphines/nyala/ScafKen_1009.Cattle.bam
+/maps/projects/popgen/data/tragelaphines/nyala/ScafKen_1010.Cattle.bam
+/maps/projects/popgen/data/tragelaphines/nyala/ScafNA-_1003.Cattle.bam
+/maps/projects/popgen/data/tragelaphines/nyala/ScafNA-_1004.Cattle.bam

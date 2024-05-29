@@ -1,0 +1,22 @@
+PLINK v2.00a3.3LM 64-bit Intel (3 Jun 2022)
+Options in effect:
+  --allow-extra-chr
+  --bfile BosTau9_tragmain2_Xchr_variable
+  --het
+
+Hostname: scarbpop02fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/0757
+Start time: Wed Apr 10 22:09:04 2024
+
+Random number seed: 1712779744
+1031233 MiB RAM detected; reserving 515616 MiB for main workspace.
+Using up to 192 threads (change this with --threads).
+249 samples (0 females, 0 males, 249 ambiguous; 249 founders) loaded from
+BosTau9_tragmain2_Xchr_variable.fam.
+13795994 variants loaded from BosTau9_tragmain2_Xchr_variable.bim.
+Note: No phenotype data present.
+Calculating allele frequencies... done.
+--het: done.
+--het: Results written to plink2.het .
+
+End time: Wed Apr 10 22:09:07 2024

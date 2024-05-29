@@ -1,0 +1,30 @@
+Machine name: x86_64
+Node name: scarbpop04fl.unicph.domain
+Operating system release: 4.18.0-513.11.1.el8_9.x86_64
+Operating system version: #1 SMP Thu Dec 7 03:06:13 EST 2023
+Operating system name: Linux
+PCAone (v0.4.4)    https://github.com/Zilong-Li/PCAone
+Options in effect:
+PCAone -b plink_pre -k 6 --ld --ld-stats 0 --ld-r2 0.2 --ld-bp 100000 -n 50 
+[19/03/2024-22:14:22] program started
+[19/03/2024-22:14:22] start parsing PLINK format
+[19/03/2024-22:14:22] N samples is 45. M snps is 2278728
+[19/03/2024-22:14:23] begin to run PCAone RSVD with in-core mode
+[19/03/2024-22:14:23] running in memory mode with PCAone (algorithm2).
+[19/03/2024-22:14:27] running of epoch=1, diff=0.0557613
+[19/03/2024-22:14:28] running of epoch=2, diff=0.000497626
+[19/03/2024-22:14:30] running of epoch=3, diff=0.000427123
+[19/03/2024-22:14:32] running of epoch=4, diff=0.000190171
+[19/03/2024-22:14:35] running of epoch=5, diff=0.000119213
+[19/03/2024-22:14:37] running of epoch=6, diff=9.95787e-08
+[19/03/2024-22:14:37] stops at epoch=7
+[19/03/2024-22:14:37] output eigen values
+[19/03/2024-22:14:48] done output eigen values
+[19/03/2024-22:14:48] ld-stats=0: calc_ld_metrics using residuals matrix!
+[19/03/2024-22:14:48] output residuals values
+[19/03/2024-23:14:49] done output residuals values
+[19/03/2024-23:14:53] run_pca_with_halko done
+[19/03/2024-23:14:58] start ld pruning and pick_random_one=0
+[19/03/2024-23:15:44] total elapsed reading time: 0.186838 seconds
+[19/03/2024-23:15:44] total elapsed wall time: 3681.96 seconds
+[19/03/2024-23:15:44] eigenvecs and eigenvals are saved. have a nice day. bye!

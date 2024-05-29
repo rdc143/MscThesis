@@ -1,0 +1,27 @@
+PLINK v1.90b7 64-bit (16 Jan 2023)
+Options in effect:
+  --allow-extra-chr
+  --bfile tragmain_ychr
+  --distance square
+  --out ychr
+
+Hostname: scarbpop03fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/ychr
+Start time: Mon Feb 26 13:12:36 2024
+
+Random number seed: 1708949556
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+71450 variants loaded from .bim file.
+34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ychr.nosex .
+Using up to 103 threads (change this with --threads).
+Before main variant filters, 34 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.995731.
+71450 variants and 34 people pass filters and QC.
+Note: No phenotypes present.
+Distance matrix calculation complete.
+IDs written to ychr.dist.id .
+Distances (allele counts) written to ychr.dist .
+
+End time: Mon Feb 26 13:12:36 2024

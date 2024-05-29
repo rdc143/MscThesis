@@ -1,0 +1,32 @@
+PLINK v2.00a3.3LM 64-bit Intel (3 Jun 2022)
+Options in effect:
+  --allow-extra-chr
+  --bcf /maps/projects/popgen/people/rdc143/QCSeq/gt/results/tragmain2/vcf/BosTau9_tragmain2_sites.bcf.gz
+  --make-bed
+  --max-alleles 2
+  --out BosTau9_tragmain2_sites
+  --snps-only
+  --threads 100
+
+Hostname: scarbpop02fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/2dsfs
+Start time: Sat Apr 27 21:39:30 2024
+
+Random number seed: 1714246770
+1031233 MiB RAM detected; reserving 515616 MiB for main workspace.
+Using up to 100 threads (change this with --threads).
+--bcf: 1454587021 variants scanned.
+--bcf: BosTau9_tragmain2_sites-temporary.pgen +
+BosTau9_tragmain2_sites-temporary.pvar.zst +
+BosTau9_tragmain2_sites-temporary.psam written.
+249 samples (0 females, 0 males, 249 ambiguous; 249 founders) loaded from
+BosTau9_tragmain2_sites-temporary.psam.
+1426938303 out of 1454587021 variants loaded from
+BosTau9_tragmain2_sites-temporary.pvar.zst.
+Note: No phenotype data present.
+1426938303 variants remaining after main filters.
+Writing BosTau9_tragmain2_sites.fam ... done.
+Writing BosTau9_tragmain2_sites.bim ... done.
+Writing BosTau9_tragmain2_sites.bed ... done.
+
+End time: Sat Apr 27 23:19:37 2024

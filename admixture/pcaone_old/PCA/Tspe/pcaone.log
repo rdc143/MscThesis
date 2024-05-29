@@ -1,0 +1,26 @@
+Machine name: x86_64
+Node name: scarbpop03fl.unicph.domain
+Operating system release: 4.18.0-513.11.1.el8_9.x86_64
+Operating system version: #1 SMP Thu Dec 7 03:06:13 EST 2023
+Operating system name: Linux
+PCAone (v0.4.4)    https://github.com/Zilong-Li/PCAone
+Options in effect:
+PCAone -k 20 -b plink_pre -n 20 
+[18/03/2024-15:36:36] program started
+[18/03/2024-15:36:36] start parsing PLINK format
+[18/03/2024-15:36:36] N samples is 32. M snps is 7029951
+[18/03/2024-15:36:37] begin to run PCAone RSVD with in-core mode
+[18/03/2024-15:36:37] running in memory mode with PCAone (algorithm2).
+[18/03/2024-15:37:58] running of epoch=1, diff=0.0779769
+[18/03/2024-15:38:38] running of epoch=2, diff=0.00101589
+[18/03/2024-15:39:17] running of epoch=3, diff=0.000212336
+[18/03/2024-15:39:51] running of epoch=4, diff=0.000396961
+[18/03/2024-15:40:25] running of epoch=5, diff=0.000295964
+[18/03/2024-15:40:59] running of epoch=6, diff=6.95207e-11
+[18/03/2024-15:40:59] stops at epoch=7
+[18/03/2024-15:41:01] output eigen values
+[18/03/2024-15:41:01] done output eigen values
+[18/03/2024-15:41:01] run_pca_with_halko done
+[18/03/2024-15:41:01] total elapsed reading time: 0.636472 seconds
+[18/03/2024-15:41:01] total elapsed wall time: 265.465 seconds
+[18/03/2024-15:41:01] eigenvecs and eigenvals are saved. have a nice day. bye!

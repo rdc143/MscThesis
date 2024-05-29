@@ -1,0 +1,112 @@
+IMPORTANT WARNING: Alignment column 1029 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1030 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1031 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1032 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1033 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1034 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1035 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1036 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1037 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1038 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1039 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1040 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1041 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 12718 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 12719 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 16604 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 16605 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 16606 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 16607 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 24462 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 24463 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 24464 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 24465 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 24466 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 24467 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 24468 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 24469 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 24470 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 24471 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 24472 contains only undetermined values which will be treated as missing data
+
+IMPORTANT WARNING
+Found 30 columns that contain only undetermined values which will be treated as missing data.
+Normally these columns should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+undetermined columns removed is printed to file window.fa.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+Alignment has 30 completely undetermined sites that will be automatically removed from the input data
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 869 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.40%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 869
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS -m GTRGAMMA -s window.fa -n 432 -T 10 -p 1337 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.289 0.215 0.204 0.291 
+
+Inference[0]: Time 0.355210 GAMMA-based likelihood -52333.080285, best rearrangement setting 5
+alpha[0]: 0.128147 rates[0] ac ag at cg ct gt: 0.903252 3.782331 0.490374 1.150405 3.597807 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -52333.062156 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/raxml/432/RAxML_result.432
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -52333.062156 .... 
+
+Final GAMMA-based Score of best tree -52333.062156
+
+Program execution info written to /maps/projects/seqafrica/scratch/rdc143/trag_analyses/raxml/432/RAxML_info.432
+Best-scoring ML tree written to: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/raxml/432/RAxML_bestTree.432
+
+Overall execution time: 0.508872 secs or 0.000141 hours or 0.000006 days
+

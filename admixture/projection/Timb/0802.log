@@ -1,0 +1,41 @@
+Input: -likes (null) -plink 0802 -Nname ../Timb.7.nind -fname ../Timb.7.ref.txt -out 0802 -whichPops all
+Setup: -seed 1714664344 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 126972686
+Ref has this many sites 1183129
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 1178189 sites between input and ref
+
+nPop=7
+
+Opening nInd file: ../Timb.7.ref.txt with nPop=7
+Chosen pop Som
+N = 7.999870
+Chosen pop Tan1
+N = 7.895670
+Chosen pop Uga
+N = 4.000150
+Chosen pop Eth
+N = 3.000220
+Chosen pop Aby
+N = 3.000220
+Chosen pop Tan2
+N = 12.890700
+Chosen pop Ken
+N = 4.213210
+
+This many iterations 44 for run 0
+
+best like -769382.452694 after 0!
+Q 0.000010 Q 0.268565 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.731385 Q 0.000010  after 0!
+
+Estimated  Q = 0.000010 0.268565 0.000010 0.000010 0.000010 0.731385 0.000010 
+best like -769382.452694 after 0 runs!
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  22.05 sec
+	[ALL done] walltime used =  22.00 sec

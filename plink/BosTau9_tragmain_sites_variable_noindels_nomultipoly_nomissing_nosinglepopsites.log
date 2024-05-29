@@ -1,0 +1,29 @@
+PLINK v1.90b7 64-bit (16 Jan 2023)
+Options in effect:
+  --allow-extra-chr
+  --bfile BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_nosinglepopsites
+  --out BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_nosinglepopsites
+  --recode vcf
+
+Hostname: scarbpop02fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/bed
+Start time: Mon Jan 15 15:18:00 2024
+
+Random number seed: 1705328280
+1031246 MB RAM detected; reserving 515623 MB for main workspace.
+28192540 variants loaded from .bim file.
+247 people (0 males, 0 females, 247 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_nosinglepopsites.nosex
+.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 247 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is exactly 1.
+28192540 variants and 247 people pass filters and QC.
+Note: No phenotypes present.
+--recode vcf to
+BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_nosinglepopsites.vcf
+... done.
+
+End time: Mon Jan 15 15:19:25 2024

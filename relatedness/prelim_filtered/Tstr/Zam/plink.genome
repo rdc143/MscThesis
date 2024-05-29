@@ -1,0 +1,4 @@
+     FID1 IID1     FID2 IID2 RT    EZ      Z0      Z1      Z2  PI_HAT PHE       DST     PPC   RATIO
+  TstrZam 0619  TstrZam 0842 OT     0  0.9476  0.0248  0.0276  0.0400  -1  0.649441  1.0000  2.2873
+  TstrZam 0619  TstrZam 0851 OT     0  0.9644  0.0195  0.0160  0.0258  -1  0.644435  0.9952  2.1663
+  TstrZam 0842  TstrZam 0851 OT     0  0.8865  0.1102  0.0033  0.0584  -1  0.653015  1.0000  2.5025

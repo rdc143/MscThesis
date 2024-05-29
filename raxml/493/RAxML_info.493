@@ -1,0 +1,137 @@
+IMPORTANT WARNING: Alignment column 6357 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6358 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6359 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6360 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6361 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6362 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6363 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6364 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6365 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6366 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6367 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6368 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6369 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6370 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6371 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6372 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6373 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6374 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6375 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6376 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6377 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6378 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6379 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6380 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6381 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6382 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6383 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6384 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6385 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6386 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6387 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6388 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6389 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6390 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6391 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6392 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6393 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6394 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6765 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6766 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6767 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6768 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6769 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6770 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 17806 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 17807 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 17808 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 17809 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 17810 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 22860 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 22861 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 22862 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 22863 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 22864 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 22865 contains only undetermined values which will be treated as missing data
+
+IMPORTANT WARNING
+Found 55 columns that contain only undetermined values which will be treated as missing data.
+Normally these columns should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+undetermined columns removed is printed to file window.fa.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+Alignment has 55 completely undetermined sites that will be automatically removed from the input data
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 830 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.03%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 830
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS -m GTRGAMMA -s window.fa -n 493 -T 10 -p 1337 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.284 0.200 0.212 0.305 
+
+Inference[0]: Time 0.842015 GAMMA-based likelihood -49725.712432, best rearrangement setting 5
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 0.991254 4.271421 0.608060 1.157824 4.841680 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -49725.676864 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/raxml/493/RAxML_result.493
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -49725.676864 .... 
+
+Final GAMMA-based Score of best tree -49725.676864
+
+Program execution info written to /maps/projects/seqafrica/scratch/rdc143/trag_analyses/raxml/493/RAxML_info.493
+Best-scoring ML tree written to: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/raxml/493/RAxML_bestTree.493
+
+Overall execution time: 2.457745 secs or 0.000683 hours or 0.000028 days
+

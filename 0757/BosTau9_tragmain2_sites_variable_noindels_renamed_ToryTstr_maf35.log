@@ -1,0 +1,42 @@
+PLINK v1.90b7 64-bit (16 Jan 2023)
+Options in effect:
+  --allow-extra-chr
+  --bcf /home/rdc143/trag_analyses/imputation/ToryTstr/Bostau9_tragmain2_sites_variable_noindels_renamed_ToryTstr.bcf.gz
+  --biallelic-only strict
+  --maf 0.35
+  --make-bed
+  --out BosTau9_tragmain2_sites_variable_noindels_renamed_ToryTstr_maf35
+  --snps-only
+
+Hostname: scarbpop02fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/admixtracts
+Start time: Wed Apr 10 10:52:20 2024
+
+Random number seed: 1712739140
+1031233 MB RAM detected; reserving 515616 MB for main workspace.
+--bcf:
+BosTau9_tragmain2_sites_variable_noindels_renamed_ToryTstr_maf35-temporary.bed
++
+BosTau9_tragmain2_sites_variable_noindels_renamed_ToryTstr_maf35-temporary.bim
++
+BosTau9_tragmain2_sites_variable_noindels_renamed_ToryTstr_maf35-temporary.fam
+written.
+(14828164 variants skipped.)
+224439815 variants loaded from .bim file.
+143 people (0 males, 0 females, 143 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+BosTau9_tragmain2_sites_variable_noindels_renamed_ToryTstr_maf35.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 143 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.988381.
+210306192 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+14133623 variants and 143 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to
+BosTau9_tragmain2_sites_variable_noindels_renamed_ToryTstr_maf35.bed +
+BosTau9_tragmain2_sites_variable_noindels_renamed_ToryTstr_maf35.bim +
+BosTau9_tragmain2_sites_variable_noindels_renamed_ToryTstr_maf35.fam ... done.
+
+End time: Wed Apr 10 11:25:36 2024

@@ -1,0 +1,1 @@
+Rscript ~/software/apoh/apoh.R --infile /home/rdc143/trag_analyses/apoh/gk_eland/gk_eland.anccoef --outdir /home/rdc143/trag_analyses/apoh/gk_eland/apoh_results --ids /home/rdc143/trag_analyses/apoh/gk_eland/names_gk_eland.txt

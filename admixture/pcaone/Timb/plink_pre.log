@@ -1,0 +1,34 @@
+PLINK v1.90b7 64-bit (16 Jan 2023)
+Options in effect:
+  --allow-extra-chr
+  --bfile /maps/projects/seqafrica/scratch/rdc143/trag_analyses/plink/BosTau9_tragmain2_sites_variable_noindels_8dp_5missing_nomultipoly_norelated2
+  --geno 0.1
+  --keep keep_list.txt
+  --maf 0.05
+  --make-bed
+  --mind 0.1
+  --out plink_pre
+
+Hostname: scarbpop02fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/admixture/pcaone2/Timb
+Start time: Tue Apr  2 23:43:49 2024
+
+Random number seed: 1712094229
+1031233 MB RAM detected; reserving 515616 MB for main workspace.
+127462209 variants loaded from .bim file.
+210 people (0 males, 0 females, 210 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to plink_pre.nosex .
+--keep: 43 people remaining.
+0 people removed due to missing genotype data (--mind).
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 43 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.984933.
+888596 variants removed due to missing genotype data (--geno).
+124300220 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+2273393 variants and 43 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to plink_pre.bed + plink_pre.bim + plink_pre.fam ... done.
+
+End time: Tue Apr  2 23:44:50 2024

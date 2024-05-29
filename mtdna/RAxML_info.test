@@ -1,0 +1,177 @@
+IMPORTANT WARNING: Alignment column 228 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 229 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 230 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 351 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15913 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15914 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15915 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15916 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15917 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15918 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15919 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15920 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15921 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15922 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15923 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15924 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15925 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15926 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15927 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15928 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15929 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15930 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15931 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15932 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15933 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15934 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15935 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15936 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15937 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15938 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15939 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15940 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15941 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15942 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15943 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15944 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15945 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15946 contains only undetermined values which will be treated as missing data
+
+IMPORTANT WARNING
+Found 38 columns that contain only undetermined values which will be treated as missing data.
+Normally these columns should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+undetermined columns removed is printed to file mtdna.fa.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+Alignment has 38 completely undetermined sites that will be automatically removed from the input data
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 5518 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 5.51%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 20 inferences on the original alignment using 20 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 5518
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS -m GTRGAMMA -s mtdna.fa -# 20 -n test -T 50 -p 1337 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.335 0.259 0.138 0.268 
+
+Inference[0]: Time 107.896790 GAMMA-based likelihood -126517.337567, best rearrangement setting 10
+alpha[0]: 0.191441 rates[0] ac ag at cg ct gt: 1.867048 16.385962 1.801156 0.834923 23.875920 1.000000 
+Inference[1]: Time 125.139939 GAMMA-based likelihood -126459.754526, best rearrangement setting 10
+alpha[0]: 0.191455 rates[0] ac ag at cg ct gt: 1.834651 16.173250 1.787174 0.826717 23.260172 1.000000 
+Inference[2]: Time 83.246659 GAMMA-based likelihood -126551.159184, best rearrangement setting 10
+alpha[0]: 0.192184 rates[0] ac ag at cg ct gt: 2.018292 17.220304 1.907232 0.872111 25.172789 1.000000 
+Inference[3]: Time 99.346754 GAMMA-based likelihood -126539.553290, best rearrangement setting 10
+alpha[0]: 0.190992 rates[0] ac ag at cg ct gt: 2.018877 17.545556 1.953443 0.894692 25.494570 1.000000 
+Inference[4]: Time 99.813717 GAMMA-based likelihood -126489.017472, best rearrangement setting 10
+alpha[0]: 0.191431 rates[0] ac ag at cg ct gt: 1.901195 16.734860 1.839788 0.847395 23.973418 1.000000 
+Inference[5]: Time 92.319814 GAMMA-based likelihood -126530.675272, best rearrangement setting 15
+alpha[0]: 0.191620 rates[0] ac ag at cg ct gt: 1.898005 16.632902 1.814830 0.840480 23.984166 1.000000 
+Inference[6]: Time 87.792664 GAMMA-based likelihood -126535.595382, best rearrangement setting 10
+alpha[0]: 0.191707 rates[0] ac ag at cg ct gt: 1.881941 16.367702 1.800799 0.829676 23.872947 1.000000 
+Inference[7]: Time 522.374264 GAMMA-based likelihood -126494.777827, best rearrangement setting 10
+alpha[0]: 0.190850 rates[0] ac ag at cg ct gt: 1.993107 17.482659 1.889553 0.878832 25.108971 1.000000 
+Inference[8]: Time 105.714369 GAMMA-based likelihood -126470.969735, best rearrangement setting 15
+alpha[0]: 0.191493 rates[0] ac ag at cg ct gt: 2.011888 17.586890 1.923022 0.889364 25.432412 1.000000 
+Inference[9]: Time 113.231673 GAMMA-based likelihood -126516.734239, best rearrangement setting 15
+alpha[0]: 0.191762 rates[0] ac ag at cg ct gt: 1.869203 16.272065 1.792534 0.833714 23.566772 1.000000 
+Inference[10]: Time 114.900266 GAMMA-based likelihood -126601.154370, best rearrangement setting 15
+alpha[0]: 0.191516 rates[0] ac ag at cg ct gt: 1.951259 17.012375 1.865668 0.854260 24.562017 1.000000 
+Inference[11]: Time 103.776976 GAMMA-based likelihood -126516.924993, best rearrangement setting 10
+alpha[0]: 0.191133 rates[0] ac ag at cg ct gt: 1.881914 16.494953 1.808719 0.809774 23.810229 1.000000 
+Inference[12]: Time 123.491859 GAMMA-based likelihood -126507.470054, best rearrangement setting 15
+alpha[0]: 0.192261 rates[0] ac ag at cg ct gt: 1.953456 16.765399 1.851991 0.840377 24.555902 1.000000 
+Inference[13]: Time 126.762410 GAMMA-based likelihood -126482.806117, best rearrangement setting 10
+alpha[0]: 0.191501 rates[0] ac ag at cg ct gt: 1.919425 16.972727 1.870532 0.874019 24.425739 1.000000 
+Inference[14]: Time 99.459954 GAMMA-based likelihood -126527.401911, best rearrangement setting 10
+alpha[0]: 0.191605 rates[0] ac ag at cg ct gt: 1.982113 17.123489 1.898014 0.876296 25.437498 1.000000 
+Inference[15]: Time 106.474998 GAMMA-based likelihood -126501.845502, best rearrangement setting 15
+alpha[0]: 0.192122 rates[0] ac ag at cg ct gt: 1.757322 15.205253 1.674405 0.776858 22.375304 1.000000 
+Inference[16]: Time 120.692687 GAMMA-based likelihood -126505.661359, best rearrangement setting 10
+alpha[0]: 0.190891 rates[0] ac ag at cg ct gt: 1.938835 16.862434 1.851819 0.851539 24.635130 1.000000 
+Inference[17]: Time 114.437108 GAMMA-based likelihood -126539.488183, best rearrangement setting 10
+alpha[0]: 0.192353 rates[0] ac ag at cg ct gt: 1.898953 16.477144 1.805818 0.836424 23.800825 1.000000 
+Inference[18]: Time 126.958687 GAMMA-based likelihood -126493.049113, best rearrangement setting 15
+alpha[0]: 0.191394 rates[0] ac ag at cg ct gt: 1.927756 16.801856 1.855573 0.858535 24.374174 1.000000 
+Inference[19]: Time 98.008636 GAMMA-based likelihood -126511.120492, best rearrangement setting 15
+alpha[0]: 0.190708 rates[0] ac ag at cg ct gt: 2.011543 17.721446 1.937683 0.895797 25.458189 1.000000 
+
+
+Conducting final model optimizations on all 20 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -126517.084820 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.0
+Inference[1] final GAMMA-based Likelihood: -126459.275565 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.1
+Inference[2] final GAMMA-based Likelihood: -126551.526773 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.2
+Inference[3] final GAMMA-based Likelihood: -126539.533055 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.3
+Inference[4] final GAMMA-based Likelihood: -126488.910777 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.4
+Inference[5] final GAMMA-based Likelihood: -126530.710668 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.5
+Inference[6] final GAMMA-based Likelihood: -126535.439083 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.6
+Inference[7] final GAMMA-based Likelihood: -126494.829194 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.7
+Inference[8] final GAMMA-based Likelihood: -126471.091925 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.8
+Inference[9] final GAMMA-based Likelihood: -126516.233643 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.9
+Inference[10] final GAMMA-based Likelihood: -126601.276802 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.10
+Inference[11] final GAMMA-based Likelihood: -126516.795071 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.11
+Inference[12] final GAMMA-based Likelihood: -126507.598414 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.12
+Inference[13] final GAMMA-based Likelihood: -126482.853972 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.13
+Inference[14] final GAMMA-based Likelihood: -126527.698170 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.14
+Inference[15] final GAMMA-based Likelihood: -126501.427251 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.15
+Inference[16] final GAMMA-based Likelihood: -126505.647559 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.16
+Inference[17] final GAMMA-based Likelihood: -126539.655387 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.17
+Inference[18] final GAMMA-based Likelihood: -126492.973152 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.18
+Inference[19] final GAMMA-based Likelihood: -126511.142533 tree written to file /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_result.test.RUN.19
+
+
+Starting final GAMMA-based thorough Optimization on tree 1 likelihood -126459.275565 .... 
+
+Final GAMMA-based Score of best tree -126459.275565
+
+Program execution info written to /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_info.test
+Best-scoring ML tree written to: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/mtdna/RAxML_bestTree.test
+
+Overall execution time: 2611.387370 secs or 0.725385 hours or 0.030224 days
+

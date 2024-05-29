@@ -1,0 +1,27 @@
+PLINK v1.90b7 64-bit (16 Jan 2023)
+Options in effect:
+  --allow-extra-chr
+  --bfile plink_pre
+  --extract pcaone.ld.prune.in
+  --make-bed
+  --out plink
+
+Hostname: scarbpop02fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/admixture/pcaone2/Timb
+Start time: Wed Apr  3 01:01:23 2024
+
+Random number seed: 1712098883
+1031233 MB RAM detected; reserving 515616 MB for main workspace.
+2273393 variants loaded from .bim file.
+43 people (0 males, 0 females, 43 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to plink.nosex .
+--extract: 1183129 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 43 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.984867.
+1183129 variants and 43 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to plink.bed + plink.bim + plink.fam ... done.
+
+End time: Wed Apr  3 01:01:26 2024

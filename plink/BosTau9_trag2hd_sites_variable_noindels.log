@@ -1,0 +1,33 @@
+PLINK v1.90b7 64-bit (16 Jan 2023)
+Options in effect:
+  --allow-extra-chr
+  --bcf /maps/projects/popgen/people/rdc143/QCSeq/gt/results/trag2hd/vcf/BosTau9_trag2hd_sites_variable_noindels.bcf.gz
+  --biallelic-only strict
+  --make-bed
+  --out BosTau9_trag2hd_sites_variable_noindels
+  --snps-only
+
+Hostname: scarbpop02fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/bed
+Start time: Wed Dec 20 13:57:36 2023
+
+Random number seed: 1703077056
+1031246 MB RAM detected; reserving 515623 MB for main workspace.
+--bcf: BosTau9_trag2hd_sites_variable_noindels-temporary.bed +
+BosTau9_trag2hd_sites_variable_noindels-temporary.bim +
+BosTau9_trag2hd_sites_variable_noindels-temporary.fam written.
+(3804009 variants skipped.)
+122201496 variants loaded from .bim file.
+14 people (0 males, 0 females, 14 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to BosTau9_trag2hd_sites_variable_noindels.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 14 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.989211.
+122201496 variants and 14 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to BosTau9_trag2hd_sites_variable_noindels.bed +
+BosTau9_trag2hd_sites_variable_noindels.bim +
+BosTau9_trag2hd_sites_variable_noindels.fam ... done.
+
+End time: Wed Dec 20 14:01:01 2023

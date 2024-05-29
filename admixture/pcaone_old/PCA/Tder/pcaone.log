@@ -1,0 +1,25 @@
+Machine name: x86_64
+Node name: scarbpop03fl.unicph.domain
+Operating system release: 4.18.0-513.11.1.el8_9.x86_64
+Operating system version: #1 SMP Thu Dec 7 03:06:13 EST 2023
+Operating system name: Linux
+PCAone (v0.4.4)    https://github.com/Zilong-Li/PCAone
+Options in effect:
+PCAone -b plink_pre -k 3 --ld-stats 0 --ld-r2 0.5 --ld-bp 1000000 
+[19/03/2024-09:56:03] program started
+[19/03/2024-09:56:03] start parsing PLINK format
+[19/03/2024-09:56:03] N samples is 7. M snps is 2145327
+[19/03/2024-09:56:03] begin to run PCAone RSVD with in-core mode
+[19/03/2024-09:56:03] running in memory mode with PCAone (algorithm2).
+[19/03/2024-09:56:06] running of epoch=1, diff=0.0395525
+[19/03/2024-09:56:08] running of epoch=2, diff=0.00118751
+[19/03/2024-09:56:09] running of epoch=3, diff=0.000206414
+[19/03/2024-09:56:10] running of epoch=4, diff=0.000161123
+[19/03/2024-09:56:12] running of epoch=5, diff=2.97594e-05
+PCAone converged but continues running to get S and V.
+[19/03/2024-09:56:13] running of epoch=6, diff=2.97584e-05
+[19/03/2024-09:56:13] stops at epoch=7
+[19/03/2024-09:56:13] output eigen values
+[19/03/2024-09:56:13] done output eigen values
+[19/03/2024-09:56:14] ld-stats=0: calc_ld_metrics using residuals matrix!
+[19/03/2024-09:56:14] output residuals values

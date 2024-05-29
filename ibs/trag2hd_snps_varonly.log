@@ -1,0 +1,27 @@
+PLINK v1.90b7 64-bit (16 Jan 2023)
+Options in effect:
+  --allow-extra-chr
+  --bfile ../bed/trag2hd_BosTau9_snps_varonly
+  --distance square
+  --out trag2hd_snps_varonly
+
+Hostname: scarbpop04fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/ibs
+Start time: Tue Dec 19 09:43:20 2023
+
+Random number seed: 1702975400
+515151 MB RAM detected; reserving 257575 MB for main workspace.
+131972513 variants loaded from .bim file.
+14 people (0 males, 0 females, 14 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to trag2hd_snps_varonly.nosex .
+Using up to 191 threads (change this with --threads).
+Before main variant filters, 14 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.968802.
+131972513 variants and 14 people pass filters and QC.
+Note: No phenotypes present.
+Distance matrix calculation complete.
+IDs written to trag2hd_snps_varonly.dist.id .
+Distances (allele counts) written to trag2hd_snps_varonly.dist .
+
+End time: Tue Dec 19 09:43:49 2023

@@ -1,0 +1,4 @@
+/maps/projects/popgen/data/tragelaphines/mountain_nyala/TbuxEth_0863.Cattle.bam
+/maps/projects/popgen/data/tragelaphines/mountain_nyala/TbuxEth_0864.Cattle.bam
+/maps/projects/popgen/data/tragelaphines/mountain_nyala/TbuxEth_0865.Cattle.bam
+/maps/projects/popgen/data/tragelaphines/mountain_nyala/TbuxEth_0866.Cattle.bam

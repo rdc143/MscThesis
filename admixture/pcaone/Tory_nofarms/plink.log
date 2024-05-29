@@ -1,0 +1,27 @@
+PLINK v1.90b7 64-bit (16 Jan 2023)
+Options in effect:
+  --allow-extra-chr
+  --bfile plink_pre
+  --extract pcaone.ld.prune.in
+  --make-bed
+  --out plink
+
+Hostname: scarbpop03fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/admixture/pcaone2/Tory_nofarms
+Start time: Wed Apr 24 16:43:53 2024
+
+Random number seed: 1713969833
+1031219 MB RAM detected; reserving 515609 MB for main workspace.
+7725889 variants loaded from .bim file.
+57 people (0 males, 0 females, 57 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to plink.nosex .
+--extract: 4790135 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 57 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.973525.
+4790135 variants and 57 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to plink.bed + plink.bim + plink.fam ... done.
+
+End time: Wed Apr 24 16:44:02 2024

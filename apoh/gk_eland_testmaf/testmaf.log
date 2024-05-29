@@ -1,0 +1,21 @@
+nohup: ignoring input
+Warning the plink file appears to have non autosomal chromosomes (chromosome number > 22) and/or undefined chromosomes (chromosome name=0)
+NGSremix -plink testmaf -fname testmaf.2.P -bothanc 1 -P 150 -o testmaf 
+	-> Seed is: 1337168536
+	-> Will assume these are the plink files:
+		bed: testmaf.bed
+		bim: testmaf.bim
+		fam: testmaf.fam
+	-> Plink file contains 143 samples
+	-> Plink file contains 34984679 autosomale SNPs
+	-> reading genotypes
+	-> Allocated: 10.006 gig memory
+	-> done allocating and reading plink 
+	running i1:140	running i1:120	running i1:30	running i1:130	running i1:20	running i1:100	running i1:0	running i1:110	running i1:10	running i1:50	running i1:70	running i1:90	running i1:60	running i1:40	running i1:80
+	-> K=2	nSites=34984679	nInd=143
+	-> Opening : testmaf.2.P with x=34984679 y=2
+	-> Estimating ancestry coefficients. Dumping to testmaf.anccoef
+	-> 143 ancestry estimates took 548 sec.
+	[ALL done] cpu-time used =  5269.23 sec
+	[ALL done] walltime used =  633.00 sec
+	[ALL done] results have been outputted to testmaf.anccoef

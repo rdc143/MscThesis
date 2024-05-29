@@ -1,0 +1,35 @@
+PLINK v2.00a3.3LM 64-bit Intel (3 Jun 2022)
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/bed/BosTau9_tragmain2_sites_variable_noindels_8dp_fixedout
+  --geno 0.1
+  --keep keep_list.txt
+  --maf 0.05
+  --make-king-table
+
+Hostname: scarbpop02fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/relatedness/all/Timb/Aby
+Start time: Tue Apr  2 15:49:19 2024
+
+Random number seed: 1712065759
+1031233 MiB RAM detected; reserving 515616 MiB for main workspace.
+Using up to 192 threads (change this with --threads).
+249 samples (0 females, 0 males, 249 ambiguous; 249 founders) loaded from
+/home/rdc143/trag_analyses/bed/BosTau9_tragmain2_sites_variable_noindels_8dp_fixedout.fam.
+122389855 variants loaded from
+/home/rdc143/trag_analyses/bed/BosTau9_tragmain2_sites_variable_noindels_8dp_fixedout.bim.
+Note: No phenotype data present.
+--keep: 3 samples remaining.
+3 samples (0 females, 0 males, 3 ambiguous; 3 founders) remaining after main
+filters.
+Calculating allele frequencies... done.
+--geno: 10181214 variants removed due to missing genotype data.
+109960075 variants removed due to allele frequency threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+2248566 variants remaining after main filters.
+--make-king-table pass 1/1: Scanning for rare variants... done.
+0 variants handled by initial scan (2248566 remaining).
+--make-king-table: 2248566 variants processed.
+Results written to plink2.kin0 .
+
+End time: Tue Apr  2 15:49:38 2024

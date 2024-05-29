@@ -1,0 +1,39 @@
+Input: -likes (null) -plink 0756 -Nname ../Tstr.6.nind -fname ../Tstr.6.ref.txt -out 0756 -whichPops all
+Setup: -seed 1714655466 -method 1
+Ploidy of 2 has been chosen
+
+The accelerated EM has been chosen
+The adjusted method has been chosen
+Convergence: -maxIter 2000 -tol 0.00000010
+The following number of bootstraps have been chosen: 0
+Input has this many sites without missing data 124123396
+Ref has this many sites 1703640
+This many sites in ref are either not-valid-number or below maf in any of the chosen pops 0
+Overlap: of 1655487 sites between input and ref
+
+nPop=6
+
+Opening nInd file: ../Tstr.6.ref.txt with nPop=6
+Chosen pop TanS
+N = 7.143750
+Chosen pop Nam
+N = 7.343320
+Chosen pop Zim
+N = 12.263600
+Chosen pop TanNE
+N = 4.000200
+Chosen pop TanNW
+N = 5.000140
+Chosen pop Bot
+N = 8.248960
+
+This many iterations 27 for run 0
+
+best like -1070649.001320 after 0!
+Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.000010 Q 0.999950  after 0!
+
+Estimated  Q = 0.000010 0.000010 0.000010 0.000010 0.000010 0.999950 
+best like -1070649.001320 after 0 runs!
+FIRST row of .qopt file is BEST estimated Q, rest are nBoot bootstrapping Qs
+	[ALL done] cpu-time used =  23.21 sec
+	[ALL done] walltime used =  23.00 sec

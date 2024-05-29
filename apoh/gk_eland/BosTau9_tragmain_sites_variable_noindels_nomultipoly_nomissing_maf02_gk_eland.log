@@ -1,0 +1,38 @@
+PLINK v1.90b7 64-bit (16 Jan 2023)
+Options in effect:
+  --allow-extra-chr
+  --bfile ../../bed/BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing
+  --keep keep_list_gk_eland.txt
+  --maf 0.02
+  --make-bed
+  --out ./BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_maf02_gk_eland
+
+Hostname: scarbpop02fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/apoh/gk_eland
+Start time: Fri Feb 23 09:42:34 2024
+
+Random number seed: 1708677754
+1031233 MB RAM detected; reserving 515616 MB for main workspace.
+168100736 variants loaded from .bim file.
+247 people (0 males, 0 females, 247 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+./BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_maf02_gk_eland.nosex
+.
+--keep: 143 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 143 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is exactly 1.
+139469950 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+28630786 variants and 143 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to
+./BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_maf02_gk_eland.bed
++
+./BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_maf02_gk_eland.bim
++
+./BosTau9_tragmain_sites_variable_noindels_nomultipoly_nomissing_maf02_gk_eland.fam
+... done.
+
+End time: Fri Feb 23 09:44:08 2024

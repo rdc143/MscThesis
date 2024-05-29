@@ -1,0 +1,22 @@
+PLINK v1.90b7 64-bit (16 Jan 2023)
+Options in effect:
+  --allow-extra-chr
+  --bfile /home/rdc143/trag_analyses/bed/BosTau9_tragmain2_sites_variable_noindels_8dp_fixedout
+  --geno 0.1
+  --genome
+  --keep keep_list.txt
+  --maf 0.05
+
+Hostname: scarbpop02fl.unicph.domain
+Working directory: /maps/projects/seqafrica/scratch/rdc143/trag_analyses/relatedness/all/Tstr/RSA
+Start time: Tue Apr  2 15:54:41 2024
+
+Random number seed: 1712066081
+1031233 MB RAM detected; reserving 515616 MB for main workspace.
+122389855 variants loaded from .bim file.
+249 people (0 males, 0 females, 249 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to plink.nosex .
+--keep: 1 person remaining.
+Error: At least 2 people required for pairwise analysis.
+
+End time: Tue Apr  2 15:54:58 2024

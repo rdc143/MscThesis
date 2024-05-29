@@ -1,0 +1,41 @@
+Input parameter values:
+               datapath = ./Timb
+               mcmcpath = ./Timb_res2
+               prevpath = 
+               gridpath = 
+               distance = euclidean
+                diploid = 1
+                 nIndiv = 34
+                 nSites = 6671981
+                 nDemes = 300
+                   seed = 1714995164
+            numMCMCIter = 30000000
+            numBurnIter = 15000000
+            numThinIter = 10000
+              negBiSize = 10
+              negBiProb = 0.670000
+             qVoronoiPr = 0.250000
+             mrateShape = 0.000500
+             qrateShape = 0.002000
+             sigmaShape = 0.001000
+             qrateScale = 0.500000
+             mrateScale = 2.000000
+             sigmaScale = 1.000000
+       mSeedsProposalS2 = 0.010000
+       qSeedsProposalS2 = 0.100000
+       mEffctProposalS2 = 0.100000
+       qEffctProposalS2 = 0.001000
+      mrateMuProposalS2 = 0.010000
+
+Acceptance proportions:
+	(1478625/1873874) = 79% for proposal type "qTileRate",		 with proposal variance "qEffctProposalS2"
+	(1451469/1873552) = 77% for proposal type "qTileMove",		 with proposal variance "qSeedsProposalS2"
+	(876370/1874604) = 47% for proposal type "qBirthDeath"
+	(4377709/5623613) = 78% for proposal type "mTileRate",		 with proposal variance "mEffctProposalS2"
+	(1313183/3750230) = 35% for proposal type "mMeanRate",		 with proposal variance "mrateMuProposalS2"
+	(4548940/5627426) = 81% for proposal type "mTileMove",		 with proposal variance "mSeedsProposalS2"
+	(1763090/5628167) = 31% for proposal type "mBirthDeath"
+	(1685493/3748534) = 45% for proposal type "degrees of freedom"
+
+Final log prior: 50.90
+Final log llike: 1671.89

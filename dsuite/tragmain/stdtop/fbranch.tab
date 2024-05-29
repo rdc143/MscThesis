@@ -1,0 +1,15 @@
+branch	branch_descendants	Outgroup	nyala	lesser_kudu	bushbuck	greater_kudu	mountain_nyala	sitatunga	eland	giant_eland
+b2	nyala,lesser_kudu	nan	nan	nan	nan	nan	nan	nan	nan	nan
+b3	bushbuck,mountain_nyala,sitatunga,greater_kudu,eland,giant_eland	nan	nan	nan	nan	nan	nan	nan	nan	nan
+b4	nyala	nan	nan	nan	0.112711	0.0786141	0.0811977	0.0828599	0.0590521	0.0582341
+b5	lesser_kudu	nan	nan	nan	0	0	0	0	0	0
+b6	bushbuck,mountain_nyala,sitatunga	nan	0.0309058	0.0143224	nan	nan	nan	nan	nan	nan
+b7	greater_kudu,eland,giant_eland	nan	0	0	nan	nan	nan	nan	nan	nan
+b8	bushbuck	nan	0.0563856	0.0287862	nan	0	nan	nan	0	0
+b9	mountain_nyala,sitatunga	nan	0	0	nan	0.0526794	nan	nan	0.0719669	0.072801
+b10	greater_kudu	nan	0	0	0	nan	0	0	nan	nan
+b11	eland,giant_eland	nan	0.0527794	0.0519668	0.115981	nan	0.100339	0.162858	nan	nan
+b12	mountain_nyala	nan	0.00865618	0.00794915	0	0.0466438	nan	nan	0	0
+b13	sitatunga	nan	0	0	0.0150686	0	nan	nan	0.017927	0.0195875
+b14	eland	nan	0	0	0	0	0	0	nan	nan
+b15	giant_eland	nan	0.00406266	0.00543449	0.00303381	0.0022449	0.00326839	0.00553456	nan	nan
